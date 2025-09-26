@@ -1,0 +1,75 @@
+[0.000000] (-) TimerEvent: {}
+[0.000117] (-) JobUnselected: {'identifier': 'status_interfaces'}
+[0.000135] (-) JobUnselected: {'identifier': 'status_publisher'}
+[0.000146] (status_display) JobQueued: {'identifier': 'status_display', 'dependencies': OrderedDict([('status_interfaces', '/home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces')])}
+[0.000452] (status_display) JobStarted: {'identifier': 'status_display'}
+[0.004092] (status_display) JobProgress: {'identifier': 'status_display', 'progress': 'cmake'}
+[0.004240] (status_display) Command: {'cmd': ['/usr/bin/cmake', '/home/bohn/FishRos/chapt3/topic_practice_ws/src/status_display', '-DCMAKE_INSTALL_PREFIX=/home/bohn/FishRos/chapt3/topic_practice_ws/install/status_display'], 'cwd': '/home/bohn/FishRos/chapt3/topic_practice_ws/build/status_display', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bohn'), ('SSH_CLIENT', '10.211.55.2 51991 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/bohn'), ('OLDPWD', '/home/bohn/FishRos/chapt3'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('LC_TERMINAL_VERSION', '3.6.1'), ('COLCON_PREFIX_PATH', '/home/bohn/FishRos/chapt3/topic_practice_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bohn'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '140'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/bohn/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/bohn/FishRos/chapt3/topic_practice_ws/install/status_publisher:/home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_TERMINAL', 'iTerm2'), ('PWD', '/home/bohn/FishRos/chapt3/topic_practice_ws/build/status_display'), ('SSH_CONNECTION', '10.211.55.2 51991 10.211.55.6 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/bohn/FishRos/chapt3/topic_practice_ws/install/status_publisher/lib/python3.10/site-packages:/home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces:/home/bohn/FishRos/chapt3/topic_practice_ws/install/status_publisher:/opt/ros/humble')]), 'shell': False}
+[0.039634] (status_display) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.064253] (status_display) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.067035] (status_display) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099745] (status_display) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.099916] (-) TimerEvent: {}
+[0.102453] (status_display) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.102624] (status_display) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.103107] (status_display) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.104802] (status_display) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.146961] (status_display) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.149638] (status_display) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.149875] (status_display) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.150171] (status_display) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.151577] (status_display) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.200293] (-) TimerEvent: {}
+[0.252296] (status_display) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.295953] (status_display) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.300363] (-) TimerEvent: {}
+[0.316622] (status_display) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.318312] (status_display) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.321388] (status_display) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.325753] (status_display) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.332906] (status_display) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.358506] (status_display) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.361537] (status_display) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.398791] (status_display) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.400440] (-) TimerEvent: {}
+[0.410906] (status_display) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.427259] (status_display) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.433503] (status_display) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.460835] (status_display) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.461119] (status_display) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.491556] (status_display) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.492014] (status_display) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.500538] (-) TimerEvent: {}
+[0.519317] (status_display) StdoutLine: {'line': b'-- Found status_interfaces: 0.0.0 (/home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake)\n'}
+[0.536951] (status_display) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.569881] (status_display) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.570026] (status_display) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.570067] (status_display) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.570431] (status_display) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.570869] (status_display) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.570918] (status_display) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.571179] (status_display) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.571724] (status_display) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.578330] (status_display) StdoutLine: {'line': b'-- Generating done\n'}
+[0.579626] (status_display) StdoutLine: {'line': b'-- Build files have been written to: /home/bohn/FishRos/chapt3/topic_practice_ws/build/status_display\n'}
+[0.584339] (status_display) CommandEnded: {'returncode': 0}
+[0.584514] (status_display) JobProgress: {'identifier': 'status_display', 'progress': 'build'}
+[0.584525] (status_display) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bohn/FishRos/chapt3/topic_practice_ws/build/status_display', '--', '-j2', '-l2'], 'cwd': '/home/bohn/FishRos/chapt3/topic_practice_ws/build/status_display', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bohn'), ('SSH_CLIENT', '10.211.55.2 51991 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/bohn'), ('OLDPWD', '/home/bohn/FishRos/chapt3'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('LC_TERMINAL_VERSION', '3.6.1'), ('COLCON_PREFIX_PATH', '/home/bohn/FishRos/chapt3/topic_practice_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bohn'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '140'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/bohn/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/bohn/FishRos/chapt3/topic_practice_ws/install/status_publisher:/home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_TERMINAL', 'iTerm2'), ('PWD', '/home/bohn/FishRos/chapt3/topic_practice_ws/build/status_display'), ('SSH_CONNECTION', '10.211.55.2 51991 10.211.55.6 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/bohn/FishRos/chapt3/topic_practice_ws/install/status_publisher/lib/python3.10/site-packages:/home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces:/home/bohn/FishRos/chapt3/topic_practice_ws/install/status_publisher:/opt/ros/humble')]), 'shell': False}
+[0.600616] (-) TimerEvent: {}
+[0.611630] (status_display) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/hello_qt.dir/src/hello_qt.cpp.o\x1b[0m\n'}
+[0.700711] (-) TimerEvent: {}
+[0.801378] (-) TimerEvent: {}
+[0.902170] (-) TimerEvent: {}
+[1.002388] (-) TimerEvent: {}
+[1.070936] (status_display) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable hello_qt\x1b[0m\n'}
+[1.103629] (-) TimerEvent: {}
+[1.171362] (status_display) StderrLine: {'line': b"/usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':\n"}
+[1.171630] (status_display) StderrLine: {'line': b"(.text+0x1c): undefined reference to `main'\n"}
+[1.171663] (status_display) StderrLine: {'line': b"/usr/bin/ld: (.text+0x20): undefined reference to `main'\n"}
+[1.179121] (status_display) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[1.180819] (status_display) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/hello_qt.dir/build.make:100: hello_qt] Error 1\n'}
+[1.180874] (status_display) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/hello_qt.dir/all] Error 2\n'}
+[1.180898] (status_display) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[1.181494] (status_display) CommandEnded: {'returncode': 2}
+[1.185675] (status_display) JobEnded: {'identifier': 'status_display', 'rc': 2}
+[1.195952] (-) EventReactorShutdown: {}

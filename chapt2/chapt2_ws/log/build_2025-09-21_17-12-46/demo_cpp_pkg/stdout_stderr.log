@@ -1,0 +1,31 @@
+[ 16%] Built target person_node
+[ 33%] Built target cpp_node
+[ 50%] Built target learn_shared_ptr
+[ 66%] Built target learn_auto
+[35m[1mConsolidate compiler generated dependencies of target learn_function[0m
+[ 83%] Built target learn_lambda
+[ 91%] [32mBuilding CXX object CMakeFiles/learn_function.dir/src/learn_function.cpp.o[0m
+[100%] [32m[1mLinking CXX executable learn_function[0m
+[100%] Built target learn_function
+-- Install configuration: ""
+-- Up-to-date: /home/bohn/FishRos/chapt2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/cpp_node
+-- Up-to-date: /home/bohn/FishRos/chapt2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/person_node
+-- Up-to-date: /home/bohn/FishRos/chapt2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_auto
+-- Up-to-date: /home/bohn/FishRos/chapt2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_shared_ptr
+-- Installing: /home/bohn/FishRos/chapt2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_lambda
+-- Installing: /home/bohn/FishRos/chapt2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_function
+-- Up-to-date: /home/bohn/FishRos/chapt2/chapt2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/demo_cpp_pkg
+-- Up-to-date: /home/bohn/FishRos/chapt2/chapt2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/demo_cpp_pkg
+-- Up-to-date: /home/bohn/FishRos/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.sh
+-- Installing: /home/bohn/FishRos/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/bohn/FishRos/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.sh
+-- Installing: /home/bohn/FishRos/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.dsv
+-- Up-to-date: /home/bohn/FishRos/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.bash
+-- Up-to-date: /home/bohn/FishRos/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.sh
+-- Up-to-date: /home/bohn/FishRos/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.zsh
+-- Installing: /home/bohn/FishRos/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.dsv
+-- Installing: /home/bohn/FishRos/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/package.dsv
+-- Up-to-date: /home/bohn/FishRos/chapt2/chapt2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/packages/demo_cpp_pkg
+-- Up-to-date: /home/bohn/FishRos/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig.cmake
+-- Up-to-date: /home/bohn/FishRos/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig-version.cmake
+-- Up-to-date: /home/bohn/FishRos/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/package.xml

@@ -1,0 +1,26 @@
+[ 30%] Built target person_node
+[ 40%] Built target cpp_node
+[ 60%] Built target learn_auto
+[35m[1mConsolidate compiler generated dependencies of target learn_lambda[0m
+[ 80%] Built target learn_shared_ptr
+[ 90%] [32mBuilding CXX object CMakeFiles/learn_lambda.dir/src/learn_lambda.cpp.o[0m
+[01m[K/home/bohn/FishRos/chapt2/chapt2_ws/src/demo_cpp_pkg/src/learn_lambda.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/bohn/FishRos/chapt2/chapt2_ws/src/demo_cpp_pkg/src/learn_lambda.cpp:7:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kint[m[K’
+    7 |     [01;31m[Kint[m[K sum = add(3,5);
+      |     [01;31m[K^~~[m[K
+[01m[K/home/bohn/FishRos/chapt2/chapt2_ws/src/demo_cpp_pkg/src/learn_lambda.cpp:8:23:[m[K [01;31m[Kerror: [m[K‘[01m[Ksum[m[K’ was not declared in this scope
+    8 |     auto print_sum = [[01;31m[Ksum[m[K]() -> void { std::cout << "3 +5 = " << sum << std::endl; };
+      |                       [01;31m[K^~~[m[K
+[01m[K/home/bohn/FishRos/chapt2/chapt2_ws/src/demo_cpp_pkg/src/learn_lambda.cpp:[m[K In lambda function:
+[01m[K/home/bohn/FishRos/chapt2/chapt2_ws/src/demo_cpp_pkg/src/learn_lambda.cpp:8:66:[m[K [01;31m[Kerror: [m[K‘[01m[Ksum[m[K’ is not captured
+    8 |     auto print_sum = [sum]() -> void { std::cout << "3 +5 = " << [01;31m[Ksum[m[K << std::endl; };
+      |                                                                  [01;31m[K^~~[m[K
+[01m[K/home/bohn/FishRos/chapt2/chapt2_ws/src/demo_cpp_pkg/src/learn_lambda.cpp:8:26:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+    8 |     auto print_sum = [sum[01;36m[K][m[K() -> void { std::cout << "3 +5 = " << sum << std::endl; };
+      |                          [01;36m[K^[m[K
+[01m[K/home/bohn/FishRos/chapt2/chapt2_ws/src/demo_cpp_pkg/src/learn_lambda.cpp:8:23:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>sum[m[K’ declared here
+    8 |     auto print_sum = [[01;36m[Ksum[m[K]() -> void { std::cout << "3 +5 = " << sum << std::endl; };
+      |                       [01;36m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/learn_lambda.dir/build.make:76: CMakeFiles/learn_lambda.dir/src/learn_lambda.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/learn_lambda.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

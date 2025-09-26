@@ -1,0 +1,5 @@
+  File "/home/bohn/FishRos/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic/novel_sub_node.py", line 10
+    class NovelSubNode(Node)
+                            ^
+SyntaxError: expected ':'
+

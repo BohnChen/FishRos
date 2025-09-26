@@ -1,0 +1,100 @@
+[0.000000] (-) TimerEvent: {}
+[0.000070] (demo_cpp_topic) JobQueued: {'identifier': 'demo_cpp_topic', 'dependencies': OrderedDict()}
+[0.000082] (demo_python_topic) JobQueued: {'identifier': 'demo_python_topic', 'dependencies': OrderedDict()}
+[0.000089] (demo_cpp_topic) JobStarted: {'identifier': 'demo_cpp_topic'}
+[0.002289] (demo_python_topic) JobStarted: {'identifier': 'demo_python_topic'}
+[0.004117] (demo_cpp_topic) JobProgress: {'identifier': 'demo_cpp_topic', 'progress': 'cmake'}
+[0.004550] (demo_cpp_topic) JobProgress: {'identifier': 'demo_cpp_topic', 'progress': 'build'}
+[0.004565] (demo_cpp_topic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bohn/FishRos/chapt3/topic_ws/build/demo_cpp_topic', '--', '-j2', '-l2'], 'cwd': '/home/bohn/FishRos/chapt3/topic_ws/build/demo_cpp_topic', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bohn'), ('SSH_CLIENT', '10.211.55.2 56607 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/bohn'), ('OLDPWD', '/home/bohn'), ('SSH_TTY', '/dev/pts/7'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('LC_TERMINAL_VERSION', '3.6.1'), ('COLCON_PREFIX_PATH', '/home/bohn/FishRos/chapt3/topic_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bohn'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '92'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/bohn/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/bohn/FishRos/chapt3/topic_ws/install/demo_cpp_topic:/home/bohn/FishRos/chapt3/topic_ws/install/demo_python_topic:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_TERMINAL', 'iTerm2'), ('PWD', '/home/bohn/FishRos/chapt3/topic_ws/build/demo_cpp_topic'), ('SSH_CONNECTION', '10.211.55.2 56607 10.211.55.6 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/bohn/FishRos/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/bohn/FishRos/chapt3/topic_ws/install/demo_cpp_topic:/home/bohn/FishRos/chapt3/topic_ws/install/demo_python_topic:/opt/ros/humble')]), 'shell': False}
+[0.015722] (demo_cpp_topic) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.064027] (demo_cpp_topic) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.074544] (demo_cpp_topic) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.075385] (demo_cpp_topic) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.077372] (demo_cpp_topic) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.080600] (demo_cpp_topic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.084850] (demo_cpp_topic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.095839] (demo_cpp_topic) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.096289] (demo_cpp_topic) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.103702] (-) TimerEvent: {}
+[0.135175] (demo_cpp_topic) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.153089] (demo_cpp_topic) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.157429] (demo_cpp_topic) StdoutLine: {'line': b'-- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)\n'}
+[0.170566] (demo_cpp_topic) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.196751] (demo_cpp_topic) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.196840] (demo_cpp_topic) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.196869] (demo_cpp_topic) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.196987] (demo_cpp_topic) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.197278] (demo_cpp_topic) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.197303] (demo_cpp_topic) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.197397] (demo_cpp_topic) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.197667] (demo_cpp_topic) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.202876] (demo_cpp_topic) StdoutLine: {'line': b'-- Generating done\n'}
+[0.203771] (-) TimerEvent: {}
+[0.205533] (demo_cpp_topic) StdoutLine: {'line': b'-- Build files have been written to: /home/bohn/FishRos/chapt3/topic_ws/build/demo_cpp_topic\n'}
+[0.215049] (demo_cpp_topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtle_circle\x1b[0m\n'}
+[0.221219] (demo_cpp_topic) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o\x1b[0m\n'}
+[0.223600] (demo_cpp_topic) StdoutLine: {'line': b'[ 75%] Built target turtle_circle\n'}
+[0.269408] (demo_python_topic) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/demo_python_topic', 'build', '--build-base', '/home/bohn/FishRos/chapt3/topic_ws/build/demo_python_topic/build', 'install', '--record', '/home/bohn/FishRos/chapt3/topic_ws/build/demo_python_topic/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/bohn/FishRos/chapt3/topic_ws/src/demo_python_topic', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'bohn', 'SSH_CLIENT': '10.211.55.2 56607 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/bohn', 'OLDPWD': '/home/bohn', 'SSH_TTY': '/dev/pts/7', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'LC_TERMINAL_VERSION': '3.6.1', 'COLCON_PREFIX_PATH': '/home/bohn/FishRos/chapt3/topic_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'bohn', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '92', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/bohn/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/bohn/FishRos/chapt3/topic_ws/install/demo_cpp_topic:/home/bohn/FishRos/chapt3/topic_ws/install/demo_python_topic:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_TERMINAL': 'iTerm2', 'PWD': '/home/bohn/FishRos/chapt3/topic_ws/build/demo_python_topic', 'SSH_CONNECTION': '10.211.55.2 56607 10.211.55.6 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/bohn/FishRos/chapt3/topic_ws/build/demo_python_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bohn/FishRos/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages:/home/bohn/FishRos/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/bohn/FishRos/chapt3/topic_ws/install/demo_cpp_topic'}, 'shell': False}
+[0.303841] (-) TimerEvent: {}
+[0.349287] (demo_python_topic) StdoutLine: {'line': b'running egg_info\n'}
+[0.349616] (demo_python_topic) StdoutLine: {'line': b'writing ../../build/demo_python_topic/demo_python_topic.egg-info/PKG-INFO\n'}
+[0.350072] (demo_python_topic) StdoutLine: {'line': b'writing dependency_links to ../../build/demo_python_topic/demo_python_topic.egg-info/dependency_links.txt\n'}
+[0.350182] (demo_python_topic) StdoutLine: {'line': b'writing entry points to ../../build/demo_python_topic/demo_python_topic.egg-info/entry_points.txt\n'}
+[0.350257] (demo_python_topic) StdoutLine: {'line': b'writing requirements to ../../build/demo_python_topic/demo_python_topic.egg-info/requires.txt\n'}
+[0.350349] (demo_python_topic) StdoutLine: {'line': b'writing top-level names to ../../build/demo_python_topic/demo_python_topic.egg-info/top_level.txt\n'}
+[0.351010] (demo_python_topic) StdoutLine: {'line': b"reading manifest file '../../build/demo_python_topic/demo_python_topic.egg-info/SOURCES.txt'\n"}
+[0.351183] (demo_python_topic) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[0.351448] (demo_python_topic) StdoutLine: {'line': b"writing manifest file '../../build/demo_python_topic/demo_python_topic.egg-info/SOURCES.txt'\n"}
+[0.351524] (demo_python_topic) StdoutLine: {'line': b'running build\n'}
+[0.351567] (demo_python_topic) StdoutLine: {'line': b'running build_py\n'}
+[0.351789] (demo_python_topic) StdoutLine: {'line': b'running install\n'}
+[0.352004] (demo_python_topic) StdoutLine: {'line': b'running install_lib\n'}
+[0.352639] (demo_python_topic) StdoutLine: {'line': b'running install_data\n'}
+[0.352725] (demo_python_topic) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.353365] (demo_python_topic) StdoutLine: {'line': b"removing '/home/bohn/FishRos/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.353511] (demo_python_topic) StdoutLine: {'line': b'Copying ../../build/demo_python_topic/demo_python_topic.egg-info to /home/bohn/FishRos/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic-0.0.0-py3.10.egg-info\n'}
+[0.354015] (demo_python_topic) StdoutLine: {'line': b'running install_scripts\n'}
+[0.361380] (demo_python_topic) StdoutLine: {'line': b'Installing novel_pub_node script to /home/bohn/FishRos/chapt3/topic_ws/install/demo_python_topic/lib/demo_python_topic\n'}
+[0.361519] (demo_python_topic) StdoutLine: {'line': b'Installing novel_sub_node script to /home/bohn/FishRos/chapt3/topic_ws/install/demo_python_topic/lib/demo_python_topic\n'}
+[0.361695] (demo_python_topic) StdoutLine: {'line': b"writing list of installed files to '/home/bohn/FishRos/chapt3/topic_ws/build/demo_python_topic/install.log'\n"}
+[0.372446] (demo_python_topic) CommandEnded: {'returncode': 0}
+[0.376345] (demo_python_topic) JobEnded: {'identifier': 'demo_python_topic', 'rc': 0}
+[0.403986] (-) TimerEvent: {}
+[0.505615] (-) TimerEvent: {}
+[0.607419] (-) TimerEvent: {}
+[0.707656] (-) TimerEvent: {}
+[0.808002] (-) TimerEvent: {}
+[0.908531] (-) TimerEvent: {}
+[0.953197] (demo_cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bohn/FishRos/chapt3/topic_ws/src/demo_cpp_topic/src/turtle_control.cpp:50:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[0.953413] (demo_cpp_topic) StderrLine: {'line': b'   50 |     rclcpp::Subscription<turtlesim:msg::Pose\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr pose_subscription_;\n'}
+[0.953443] (demo_cpp_topic) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.953464] (demo_cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bohn/FishRos/chapt3/topic_ws/src/demo_cpp_topic/src/turtle_control.cpp:50:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 3 is invalid\n'}
+[0.953482] (demo_cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bohn/FishRos/chapt3/topic_ws/src/demo_cpp_topic/src/turtle_control.cpp:50:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 4 is invalid\n'}
+[0.953499] (demo_cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bohn/FishRos/chapt3/topic_ws/src/demo_cpp_topic/src/turtle_control.cpp:50:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 5 is invalid\n'}
+[0.954171] (demo_cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bohn/FishRos/chapt3/topic_ws/src/demo_cpp_topic/src/turtle_control.cpp:50:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[0.954207] (demo_cpp_topic) StderrLine: {'line': b'   50 |     rclcpp::Subscription<turtlesim:msg::Pose>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K pose_subscription_;\n'}
+[0.954226] (demo_cpp_topic) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.954248] (demo_cpp_topic) StderrLine: {'line': b'      |                                                         \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[0.955297] (demo_cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bohn/FishRos/chapt3/topic_ws/src/demo_cpp_topic/src/turtle_control.cpp:50:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpose_subscription_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_subscription_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.955328] (demo_cpp_topic) StderrLine: {'line': b'   50 |     rclcpp::Subscription<turtlesim:msg::Pose>::SharedPtr \x1b[01;31m\x1b[Kpose_subscription_\x1b[m\x1b[K;\n'}
+[0.955346] (demo_cpp_topic) StderrLine: {'line': b'      |                                                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.955363] (demo_cpp_topic) StderrLine: {'line': b'      |                                                          \x1b[32m\x1b[Krmw_subscription_t\x1b[m\x1b[K\n'}
+[0.961167] (demo_cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bohn/FishRos/chapt3/topic_ws/src/demo_cpp_topic/src/turtle_control.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KTurtleController::TurtleController()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.961210] (demo_cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bohn/FishRos/chapt3/topic_ws/src/demo_cpp_topic/src/turtle_control.cpp:10:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpose_subscription_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_subscription_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.961233] (demo_cpp_topic) StderrLine: {'line': b'   10 |         \x1b[01;31m\x1b[Kpose_subscription_\x1b[m\x1b[K = this->create_subscription<turtlesim::msg::Pose>("/turtle1/pose",10,\n'}
+[0.961252] (demo_cpp_topic) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.961273] (demo_cpp_topic) StderrLine: {'line': b'      |         \x1b[32m\x1b[Krmw_subscription_t\x1b[m\x1b[K\n'}
+[1.008625] (-) TimerEvent: {}
+[1.109740] (-) TimerEvent: {}
+[1.210406] (-) TimerEvent: {}
+[1.311591] (-) TimerEvent: {}
+[1.413148] (-) TimerEvent: {}
+[1.514460] (-) TimerEvent: {}
+[1.616159] (-) TimerEvent: {}
+[1.716350] (-) TimerEvent: {}
+[1.743329] (demo_cpp_topic) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/turtle_control.dir/build.make:76: CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o] Error 1\n'}
+[1.743426] (demo_cpp_topic) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/turtle_control.dir/all] Error 2\n'}
+[1.743458] (demo_cpp_topic) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[1.744761] (demo_cpp_topic) CommandEnded: {'returncode': 2}
+[1.747254] (demo_cpp_topic) JobEnded: {'identifier': 'demo_cpp_topic', 'rc': 2}
+[1.757847] (-) EventReactorShutdown: {}

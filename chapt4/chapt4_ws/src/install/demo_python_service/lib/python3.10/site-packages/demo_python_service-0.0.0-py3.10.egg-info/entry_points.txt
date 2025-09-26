@@ -1,0 +1,3 @@
+[console_scripts]
+learn_face_detect = demo_python_service.learn_face_detect:main
+

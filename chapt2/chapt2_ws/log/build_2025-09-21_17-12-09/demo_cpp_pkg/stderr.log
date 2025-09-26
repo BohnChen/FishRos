@@ -1,0 +1,7 @@
+[01m[K/home/bohn/FishRos/chapt2/chapt2_ws/src/demo_cpp_pkg/src/learn_function.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/bohn/FishRos/chapt2/chapt2_ws/src/demo_cpp_pkg/src/learn_function.cpp:32:75:[m[K [01;31m[Kerror: [m[K‘[01m[Ksave_withmember_fun[m[K’ is not a member of ‘[01m[KFileSave[m[K’
+   32 |     std::function<void(const std::string &)> save3 = std::bind(&FileSave::[01;31m[Ksave_withmember_fun[m[K,
+      |                                                                           [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/learn_function.dir/build.make:76: CMakeFiles/learn_function.dir/src/learn_function.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/learn_function.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

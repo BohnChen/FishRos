@@ -1,0 +1,68 @@
+[0.000000] (-) TimerEvent: {}
+[0.000109] (demo_cpp_pkg) JobQueued: {'identifier': 'demo_cpp_pkg', 'dependencies': OrderedDict()}
+[0.000180] (demo_python_pkg) JobQueued: {'identifier': 'demo_python_pkg', 'dependencies': OrderedDict([('demo_cpp_pkg', '/home/bohn/FishRos/chapt2/chapt2_ws/install/demo_cpp_pkg')])}
+[0.000249] (demo_cpp_pkg) JobStarted: {'identifier': 'demo_cpp_pkg'}
+[0.002822] (demo_cpp_pkg) JobProgress: {'identifier': 'demo_cpp_pkg', 'progress': 'cmake'}
+[0.003077] (demo_cpp_pkg) JobProgress: {'identifier': 'demo_cpp_pkg', 'progress': 'build'}
+[0.003359] (demo_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bohn/FishRos/chapt2/chapt2_ws/build/demo_cpp_pkg', '--', '-j2', '-l2'], 'cwd': '/home/bohn/FishRos/chapt2/chapt2_ws/build/demo_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bohn'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bohn'), ('OLDPWD', '/home/bohn'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1706'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/bohn/FishRos/chapt2/chapt2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bohn'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bohn'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/bohnserver:@/tmp/.ICE-unix/1686,unix/bohnserver:/tmp/.ICE-unix/1686'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bd6b9a89_e7ce_40dc_a9c2_bac012853947'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.P4C5C3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.667'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/bohn/FishRos/chapt2/chapt2_ws/install/demo_python_pkg:/home/bohn/FishRos/chapt2/chapt2_ws/install/demo_cpp_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bohn/FishRos/chapt2/chapt2_ws/build/demo_cpp_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/bohn/FishRos/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/bohn/FishRos/chapt2/chapt2_ws/install/demo_cpp_pkg:/home/bohn/FishRos/chapt2/chapt2_ws/install/demo_python_pkg:/opt/ros/humble')]), 'shell': False}
+[0.013103] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.059920] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.070519] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.071380] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.073323] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.076473] (demo_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.080533] (demo_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.091352] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.091819] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.101073] (-) TimerEvent: {}
+[0.130155] (demo_cpp_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.148698] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.173481] (demo_cpp_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.173617] (demo_cpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.173651] (demo_cpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.174008] (demo_cpp_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.174421] (demo_cpp_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.174450] (demo_cpp_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.174701] (demo_cpp_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.175321] (demo_cpp_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.183240] (demo_cpp_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[0.185354] (demo_cpp_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/bohn/FishRos/chapt2/chapt2_ws/build/demo_cpp_pkg\n'}
+[0.193525] (demo_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target person_node\x1b[0m\n'}
+[0.193701] (demo_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_node\x1b[0m\n'}
+[0.199399] (demo_cpp_pkg) StdoutLine: {'line': b'[ 20%] Built target person_node\n'}
+[0.201140] (-) TimerEvent: {}
+[0.202096] (demo_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target learn_auto\x1b[0m\n'}
+[0.205310] (demo_cpp_pkg) StdoutLine: {'line': b'[ 50%] Built target learn_auto\n'}
+[0.205549] (demo_cpp_pkg) StdoutLine: {'line': b'[ 60%] Built target cpp_node\n'}
+[0.207954] (demo_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target learn_shared_ptr\x1b[0m\n'}
+[0.211476] (demo_cpp_pkg) StdoutLine: {'line': b'[ 80%] Built target learn_shared_ptr\n'}
+[0.211856] (demo_cpp_pkg) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/learn_lambda.dir/src/learn_lambda.cpp.o\x1b[0m\n'}
+[0.301462] (-) TimerEvent: {}
+[0.326279] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bohn/FishRos/chapt2/chapt2_ws/src/demo_cpp_pkg/src/learn_lambda.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.326369] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bohn/FishRos/chapt2/chapt2_ws/src/demo_cpp_pkg/src/learn_lambda.cpp:7:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.326394] (demo_cpp_pkg) StderrLine: {'line': b'    7 |     \x1b[01;31m\x1b[Kint\x1b[m\x1b[K sum = add(3,5);\n'}
+[0.326413] (demo_cpp_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[0.327214] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bohn/FishRos/chapt2/chapt2_ws/src/demo_cpp_pkg/src/learn_lambda.cpp:8:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksum\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.327245] (demo_cpp_pkg) StderrLine: {'line': b'    8 |     auto print_sum = [\x1b[01;31m\x1b[Ksum\x1b[m\x1b[K]() -> void { std::cout << "3 +5 = " << sum << std::endl; }\n'}
+[0.327269] (demo_cpp_pkg) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[0.327342] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bohn/FishRos/chapt2/chapt2_ws/src/demo_cpp_pkg/src/learn_lambda.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[0.327720] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bohn/FishRos/chapt2/chapt2_ws/src/demo_cpp_pkg/src/learn_lambda.cpp:8:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksum\x1b[m\x1b[K\xe2\x80\x99 is not captured\n'}
+[0.327754] (demo_cpp_pkg) StderrLine: {'line': b'    8 |     auto print_sum = [sum]() -> void { std::cout << "3 +5 = " << \x1b[01;31m\x1b[Ksum\x1b[m\x1b[K << std::endl; }\n'}
+[0.327777] (demo_cpp_pkg) StderrLine: {'line': b'      |                                                                  \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[0.327795] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bohn/FishRos/chapt2/chapt2_ws/src/demo_cpp_pkg/src/learn_lambda.cpp:8:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kthe lambda has no capture-default\n'}
+[0.327822] (demo_cpp_pkg) StderrLine: {'line': b'    8 |     auto print_sum = [sum\x1b[01;36m\x1b[K]\x1b[m\x1b[K() -> void { std::cout << "3 +5 = " << sum << std::endl; }\n'}
+[0.327844] (demo_cpp_pkg) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[0.327862] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bohn/FishRos/chapt2/chapt2_ws/src/demo_cpp_pkg/src/learn_lambda.cpp:8:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K<typeprefixerror>sum\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[0.327890] (demo_cpp_pkg) StderrLine: {'line': b'    8 |     auto print_sum = [\x1b[01;36m\x1b[Ksum\x1b[m\x1b[K]() -> void { std::cout << "3 +5 = " << sum << std::endl; }\n'}
+[0.327907] (demo_cpp_pkg) StderrLine: {'line': b'      |                       \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[0.327924] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bohn/FishRos/chapt2/chapt2_ws/src/demo_cpp_pkg/src/learn_lambda.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.327941] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bohn/FishRos/chapt2/chapt2_ws/src/demo_cpp_pkg/src/learn_lambda.cpp:9:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kprint_sum\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.327964] (demo_cpp_pkg) StderrLine: {'line': b'    9 |     \x1b[01;31m\x1b[Kprint_sum\x1b[m\x1b[K();\n'}
+[0.327981] (demo_cpp_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.339173] (demo_cpp_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/learn_lambda.dir/build.make:76: CMakeFiles/learn_lambda.dir/src/learn_lambda.cpp.o] Error 1\n'}
+[0.339269] (demo_cpp_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/learn_lambda.dir/all] Error 2\n'}
+[0.339295] (demo_cpp_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[0.340619] (demo_cpp_pkg) CommandEnded: {'returncode': 2}
+[0.344807] (demo_cpp_pkg) JobEnded: {'identifier': 'demo_cpp_pkg', 'rc': 2}
+[0.345321] (demo_python_pkg) JobSkipped: {'identifier': 'demo_python_pkg'}
+[0.345332] (-) EventReactorShutdown: {}

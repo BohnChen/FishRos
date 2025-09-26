@@ -1,0 +1,8 @@
+[01m[K/home/bohn/FishRos/chapt2/chapt2_ws/src/demo_cpp_pkg/src/learn_shared_ptr.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/bohn/FishRos/chapt2/chapt2_ws/src/demo_cpp_pkg/src/learn_shared_ptr.cpp:7:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kp1[m[K’ was not declared in this scope; did you mean ‘[01m[Kpa[m[K’?
+    7 |     std::cout << "p1 count is : " << [01;31m[Kp1[m[K.use_count() << ", point to :" << p1.get()
+      |                                      [01;31m[K^~[m[K
+      |                                      [32m[Kpa[m[K
+gmake[2]: *** [CMakeFiles/learn_shared_ptr.dir/build.make:76: CMakeFiles/learn_shared_ptr.dir/src/learn_shared_ptr.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/learn_shared_ptr.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

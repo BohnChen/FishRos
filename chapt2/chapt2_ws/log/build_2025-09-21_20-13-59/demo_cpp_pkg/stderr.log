@@ -1,0 +1,7 @@
+[01m[K/home/bohn/FishRos/chapt2/chapt2_ws/src/demo_cpp_pkg/src/learn_thread.cpp:[m[K In member function ‘[01m[Kvoid Download::download(const string&, const string&, const std::function<void(const std::__cxx11::basic_string<char>&, const std::__cxx11::basic_string<char>&)>&)[m[K’:
+[01m[K/home/bohn/FishRos/chapt2/chapt2_ws/src/demo_cpp_pkg/src/learn_thread.cpp:15:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kresponse[m[K’ was not declared in this scope
+   15 |         if ([01;31m[Kresponse[m[K && response->status == 200)
+      |             [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/learn_thread.dir/build.make:76: CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:305: CMakeFiles/learn_thread.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

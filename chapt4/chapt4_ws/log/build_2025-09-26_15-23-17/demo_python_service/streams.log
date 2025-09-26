@@ -1,0 +1,27 @@
+[0.200s] Invoking command in '/home/bohn/FishRos/chapt4/chapt4_ws/src/demo_python_service': PYTHONPATH=/home/bohn/FishRos/chapt4/chapt4_ws/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bohn/FishRos/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_service build --build-base /home/bohn/FishRos/chapt4/chapt4_ws/build/demo_python_service/build install --record /home/bohn/FishRos/chapt4/chapt4_ws/build/demo_python_service/install.log --single-version-externally-managed install_data
+[0.274s] running egg_info
+[0.275s] writing ../../build/demo_python_service/demo_python_service.egg-info/PKG-INFO
+[0.275s] writing dependency_links to ../../build/demo_python_service/demo_python_service.egg-info/dependency_links.txt
+[0.275s] writing entry points to ../../build/demo_python_service/demo_python_service.egg-info/entry_points.txt
+[0.275s] writing requirements to ../../build/demo_python_service/demo_python_service.egg-info/requires.txt
+[0.275s] writing top-level names to ../../build/demo_python_service/demo_python_service.egg-info/top_level.txt
+[0.276s] reading manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[0.276s] adding license file 'LICENSE'
+[0.276s] writing manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[0.276s] running build
+[0.276s] running build_py
+[0.276s] copying demo_python_service/face_detect_client_node.py -> /home/bohn/FishRos/chapt4/chapt4_ws/build/demo_python_service/build/lib/demo_python_service
+[0.276s] running install
+[0.276s] running install_lib
+[0.276s] copying /home/bohn/FishRos/chapt4/chapt4_ws/build/demo_python_service/build/lib/demo_python_service/face_detect_client_node.py -> /home/bohn/FishRos/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service
+[0.277s] byte-compiling /home/bohn/FishRos/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/face_detect_client_node.py to face_detect_client_node.cpython-310.pyc
+[0.277s] running install_data
+[0.277s] running install_egg_info
+[0.278s] removing '/home/bohn/FishRos/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service-0.0.0-py3.10.egg-info' (and everything under it)
+[0.278s] Copying ../../build/demo_python_service/demo_python_service.egg-info to /home/bohn/FishRos/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service-0.0.0-py3.10.egg-info
+[0.279s] running install_scripts
+[0.285s] Installing face_detect_client_node script to /home/bohn/FishRos/chapt4/chapt4_ws/install/demo_python_service/lib/demo_python_service
+[0.285s] Installing face_detect_node script to /home/bohn/FishRos/chapt4/chapt4_ws/install/demo_python_service/lib/demo_python_service
+[0.286s] Installing learn_face_detect script to /home/bohn/FishRos/chapt4/chapt4_ws/install/demo_python_service/lib/demo_python_service
+[0.286s] writing list of installed files to '/home/bohn/FishRos/chapt4/chapt4_ws/build/demo_python_service/install.log'
+[0.295s] Invoked command in '/home/bohn/FishRos/chapt4/chapt4_ws/src/demo_python_service' returned '0': PYTHONPATH=/home/bohn/FishRos/chapt4/chapt4_ws/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bohn/FishRos/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_service build --build-base /home/bohn/FishRos/chapt4/chapt4_ws/build/demo_python_service/build install --record /home/bohn/FishRos/chapt4/chapt4_ws/build/demo_python_service/install.log --single-version-externally-managed install_data

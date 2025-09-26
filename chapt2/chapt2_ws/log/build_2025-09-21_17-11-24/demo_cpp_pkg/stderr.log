@@ -1,0 +1,8 @@
+[01m[K/home/bohn/FishRos/chapt2/chapt2_ws/src/demo_cpp_pkg/src/learn_function.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kfunctinal: No such file or directory
+    2 | #include [01;31m[K<functinal>[m[K
+      |          [01;31m[K^~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/learn_function.dir/build.make:76: CMakeFiles/learn_function.dir/src/learn_function.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/learn_function.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target sys_status_display[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/sys_status_display.dir/src/sys_status_display.cpp.o[0m
+[ 75%] Built target hello_qt
+[100%] [32m[1mLinking CXX executable sys_status_display[0m
+[100%] Built target sys_status_display
+-- Install configuration: ""
+-- Up-to-date: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_display/lib/status_display/hello_qt
+-- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_display/lib/status_display/sys_status_display
+-- Set runtime path of "/home/bohn/FishRos/chapt3/topic_practice_ws/install/status_display/lib/status_display/sys_status_display" to ""
+-- Up-to-date: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_display/share/ament_index/resource_index/package_run_dependencies/status_display
+-- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_display/share/ament_index/resource_index/parent_prefix_path/status_display
+-- Up-to-date: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_display/share/status_display/environment/ament_prefix_path.sh
+-- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_display/share/status_display/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_display/share/status_display/environment/path.sh
+-- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_display/share/status_display/environment/path.dsv
+-- Up-to-date: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_display/share/status_display/local_setup.bash
+-- Up-to-date: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_display/share/status_display/local_setup.sh
+-- Up-to-date: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_display/share/status_display/local_setup.zsh
+-- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_display/share/status_display/local_setup.dsv
+-- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_display/share/status_display/package.dsv
+-- Up-to-date: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_display/share/ament_index/resource_index/packages/status_display
+-- Up-to-date: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_display/share/status_display/cmake/status_displayConfig.cmake
+-- Up-to-date: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_display/share/status_display/cmake/status_displayConfig-version.cmake
+-- Up-to-date: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_display/share/status_display/package.xml

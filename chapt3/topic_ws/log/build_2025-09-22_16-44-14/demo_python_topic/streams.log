@@ -1,0 +1,31 @@
+[0.219s] Invoking command in '/home/bohn/FishRos/chapt3/topic_ws/src/demo_python_topic': PYTHONPATH=/home/bohn/FishRos/chapt3/topic_ws/build/demo_python_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bohn/FishRos/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_topic build --build-base /home/bohn/FishRos/chapt3/topic_ws/build/demo_python_topic/build install --record /home/bohn/FishRos/chapt3/topic_ws/build/demo_python_topic/install.log --single-version-externally-managed install_data
+[0.295s] running egg_info
+[0.295s] writing ../../build/demo_python_topic/demo_python_topic.egg-info/PKG-INFO
+[0.295s] writing dependency_links to ../../build/demo_python_topic/demo_python_topic.egg-info/dependency_links.txt
+[0.295s] writing entry points to ../../build/demo_python_topic/demo_python_topic.egg-info/entry_points.txt
+[0.295s] writing requirements to ../../build/demo_python_topic/demo_python_topic.egg-info/requires.txt
+[0.295s] writing top-level names to ../../build/demo_python_topic/demo_python_topic.egg-info/top_level.txt
+[0.296s] reading manifest file '../../build/demo_python_topic/demo_python_topic.egg-info/SOURCES.txt'
+[0.297s] adding license file 'LICENSE'
+[0.297s] writing manifest file '../../build/demo_python_topic/demo_python_topic.egg-info/SOURCES.txt'
+[0.297s] running build
+[0.297s] running build_py
+[0.297s] copying demo_python_topic/novel_sub_node.py -> /home/bohn/FishRos/chapt3/topic_ws/build/demo_python_topic/build/lib/demo_python_topic
+[0.297s] running install
+[0.297s] running install_lib
+[0.297s] copying /home/bohn/FishRos/chapt3/topic_ws/build/demo_python_topic/build/lib/demo_python_topic/novel_sub_node.py -> /home/bohn/FishRos/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic
+[0.298s] byte-compiling /home/bohn/FishRos/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic/novel_sub_node.py to novel_sub_node.cpython-310.pyc
+[0.298s] running install_data
+[0.298s] running install_egg_info
+[0.298s]   File "/home/bohn/FishRos/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic/novel_sub_node.py", line 10
+[0.298s]     class NovelSubNode(Node)
+[0.298s]                             ^
+[0.298s] SyntaxError: expected ':'
+[0.298s] 
+[0.298s] removing '/home/bohn/FishRos/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic-0.0.0-py3.10.egg-info' (and everything under it)
+[0.298s] Copying ../../build/demo_python_topic/demo_python_topic.egg-info to /home/bohn/FishRos/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic-0.0.0-py3.10.egg-info
+[0.299s] running install_scripts
+[0.306s] Installing novel_pub_node script to /home/bohn/FishRos/chapt3/topic_ws/install/demo_python_topic/lib/demo_python_topic
+[0.306s] Installing novel_sub_node script to /home/bohn/FishRos/chapt3/topic_ws/install/demo_python_topic/lib/demo_python_topic
+[0.306s] writing list of installed files to '/home/bohn/FishRos/chapt3/topic_ws/build/demo_python_topic/install.log'
+[0.314s] Invoked command in '/home/bohn/FishRos/chapt3/topic_ws/src/demo_python_topic' returned '0': PYTHONPATH=/home/bohn/FishRos/chapt3/topic_ws/build/demo_python_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bohn/FishRos/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_topic build --build-base /home/bohn/FishRos/chapt3/topic_ws/build/demo_python_topic/build install --record /home/bohn/FishRos/chapt3/topic_ws/build/demo_python_topic/install.log --single-version-externally-managed install_data

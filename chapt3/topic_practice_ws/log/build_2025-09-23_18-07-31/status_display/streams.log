@@ -1,0 +1,28 @@
+[0.005s] Invoking command in '/home/bohn/FishRos/chapt3/topic_practice_ws/build/status_display': CMAKE_PREFIX_PATH=/home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces:/home/bohn/FishRos/chapt3/topic_practice_ws/install/status_display:/home/bohn/FishRos/chapt3/topic_practice_ws/install/status_publisher:/home/bohn/FishRos/chapt3/topic_ws/install/demo_python_topic:/opt/ros/humble /usr/bin/cmake --build /home/bohn/FishRos/chapt3/topic_practice_ws/build/status_display -- -j2 -l2
+[0.038s] [35m[1mConsolidate compiler generated dependencies of target sys_status_display[0m
+[0.050s] [ 25%] [32mBuilding CXX object CMakeFiles/sys_status_display.dir/src/sys_status_display.cpp.o[0m
+[0.053s] [ 75%] Built target hello_qt
+[3.137s] [100%] [32m[1mLinking CXX executable sys_status_display[0m
+[3.581s] [100%] Built target sys_status_display
+[3.585s] Invoked command in '/home/bohn/FishRos/chapt3/topic_practice_ws/build/status_display' returned '0': CMAKE_PREFIX_PATH=/home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces:/home/bohn/FishRos/chapt3/topic_practice_ws/install/status_display:/home/bohn/FishRos/chapt3/topic_practice_ws/install/status_publisher:/home/bohn/FishRos/chapt3/topic_ws/install/demo_python_topic:/opt/ros/humble /usr/bin/cmake --build /home/bohn/FishRos/chapt3/topic_practice_ws/build/status_display -- -j2 -l2
+[3.586s] Invoking command in '/home/bohn/FishRos/chapt3/topic_practice_ws/build/status_display': CMAKE_PREFIX_PATH=/home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces:/home/bohn/FishRos/chapt3/topic_practice_ws/install/status_display:/home/bohn/FishRos/chapt3/topic_practice_ws/install/status_publisher:/home/bohn/FishRos/chapt3/topic_ws/install/demo_python_topic:/opt/ros/humble /usr/bin/cmake --install /home/bohn/FishRos/chapt3/topic_practice_ws/build/status_display
+[3.588s] -- Install configuration: ""
+[3.588s] -- Up-to-date: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_display/lib/status_display/hello_qt
+[3.589s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_display/lib/status_display/sys_status_display
+[3.590s] -- Set runtime path of "/home/bohn/FishRos/chapt3/topic_practice_ws/install/status_display/lib/status_display/sys_status_display" to ""
+[3.590s] -- Up-to-date: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_display/share/ament_index/resource_index/package_run_dependencies/status_display
+[3.590s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_display/share/ament_index/resource_index/parent_prefix_path/status_display
+[3.591s] -- Up-to-date: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_display/share/status_display/environment/ament_prefix_path.sh
+[3.591s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_display/share/status_display/environment/ament_prefix_path.dsv
+[3.591s] -- Up-to-date: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_display/share/status_display/environment/path.sh
+[3.591s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_display/share/status_display/environment/path.dsv
+[3.592s] -- Up-to-date: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_display/share/status_display/local_setup.bash
+[3.592s] -- Up-to-date: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_display/share/status_display/local_setup.sh
+[3.592s] -- Up-to-date: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_display/share/status_display/local_setup.zsh
+[3.592s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_display/share/status_display/local_setup.dsv
+[3.592s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_display/share/status_display/package.dsv
+[3.592s] -- Up-to-date: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_display/share/ament_index/resource_index/packages/status_display
+[3.592s] -- Up-to-date: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_display/share/status_display/cmake/status_displayConfig.cmake
+[3.592s] -- Up-to-date: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_display/share/status_display/cmake/status_displayConfig-version.cmake
+[3.593s] -- Up-to-date: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_display/share/status_display/package.xml
+[3.594s] Invoked command in '/home/bohn/FishRos/chapt3/topic_practice_ws/build/status_display' returned '0': CMAKE_PREFIX_PATH=/home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces:/home/bohn/FishRos/chapt3/topic_practice_ws/install/status_display:/home/bohn/FishRos/chapt3/topic_practice_ws/install/status_publisher:/home/bohn/FishRos/chapt3/topic_ws/install/demo_python_topic:/opt/ros/humble /usr/bin/cmake --install /home/bohn/FishRos/chapt3/topic_practice_ws/build/status_display

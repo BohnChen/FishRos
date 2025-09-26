@@ -1,0 +1,5 @@
+[31mCMake Error at CMakeLists.txt:14:
+  Parse error.  Expected a command name, got quoted argument with text
+  "msg/SystemStatus.msg".
+
+[0m

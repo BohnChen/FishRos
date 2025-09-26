@@ -1,0 +1,4 @@
+[31mCMake Error at CMakeLists.txt:13 (rosid1_generate_interfaces):
+  Unknown CMake command "rosid1_generate_interfaces".
+
+[0m

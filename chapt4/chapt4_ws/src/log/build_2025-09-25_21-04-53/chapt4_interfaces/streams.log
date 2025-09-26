@@ -1,0 +1,235 @@
+[0.004s] Invoking command in '/home/bohn/FishRos/chapt4/chapt4_ws/src/build/chapt4_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/bohn/FishRos/chapt4/chapt4_ws/src/chapt4_interfaces -DCMAKE_INSTALL_PREFIX=/home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces
+[0.043s] -- The C compiler identification is GNU 11.4.0
+[0.063s] -- The CXX compiler identification is GNU 11.4.0
+[0.069s] -- Detecting C compiler ABI info
+[0.090s] -- Detecting C compiler ABI info - done
+[0.093s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.093s] -- Detecting C compile features
+[0.094s] -- Detecting C compile features - done
+[0.095s] -- Detecting CXX compiler ABI info
+[0.120s] -- Detecting CXX compiler ABI info - done
+[0.124s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.124s] -- Detecting CXX compile features
+[0.124s] -- Detecting CXX compile features - done
+[0.129s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.183s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.219s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.221s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.225s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.248s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.264s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.394s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.496s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.626s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.635s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.636s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.646s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[0.646s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.646s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.646s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[0.653s] -- Found PythonExtra: .so  
+[0.678s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.689s] -- Added test 'lint_cmake' to check CMake code style
+[0.690s] -- Added test 'xmllint' to check XML markup files
+[0.691s] -- Configuring done
+[0.703s] -- Generating done
+[0.707s] -- Build files have been written to: /home/bohn/FishRos/chapt4/chapt4_ws/src/build/chapt4_interfaces
+[0.710s] Invoked command in '/home/bohn/FishRos/chapt4/chapt4_ws/src/build/chapt4_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/bohn/FishRos/chapt4/chapt4_ws/src/chapt4_interfaces -DCMAKE_INSTALL_PREFIX=/home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces
+[0.711s] Invoking command in '/home/bohn/FishRos/chapt4/chapt4_ws/src/build/chapt4_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bohn/FishRos/chapt4/chapt4_ws/src/build/chapt4_interfaces -- -j2 -l2
+[0.725s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.725s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.841s] [  6%] Built target chapt4_interfaces__cpp
+[0.844s] [  9%] [32mBuilding C object CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/face_detector__functions.c.o[0m
+[0.848s] [  9%] Built target ament_cmake_python_copy_chapt4_interfaces
+[0.851s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[0.870s] [ 16%] [32m[1mLinking C shared library libchapt4_interfaces__rosidl_generator_c.so[0m
+[0.885s] [ 16%] Built target chapt4_interfaces__rosidl_generator_c
+[0.888s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[0.953s] [ 22%] [32mBuilding CXX object CMakeFiles/chapt4_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/chapt4_interfaces/srv/face_detector__type_support.cpp.o[0m
+[0.997s] [ 25%] [32mBuilding CXX object CMakeFiles/chapt4_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/chapt4_interfaces/srv/detail/dds_fastrtps/face_detector__type_support.cpp.o[0m
+[1.037s] [ 29%] [32m[1mLinking CXX shared library libchapt4_interfaces__rosidl_typesupport_cpp.so[0m
+[1.050s] [ 29%] Built target chapt4_interfaces__rosidl_typesupport_cpp
+[1.052s] [ 32%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.140s] [ 35%] [32m[1mLinking CXX shared library libchapt4_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.158s] [ 38%] [32mBuilding CXX object CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/chapt4_interfaces/srv/detail/face_detector__type_support.cpp.o[0m
+[1.164s] [ 38%] Built target chapt4_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.242s] running egg_info
+[1.243s] creating chapt4_interfaces.egg-info
+[1.243s] writing chapt4_interfaces.egg-info/PKG-INFO
+[1.243s] writing dependency_links to chapt4_interfaces.egg-info/dependency_links.txt
+[1.243s] writing top-level names to chapt4_interfaces.egg-info/top_level.txt
+[1.243s] writing manifest file 'chapt4_interfaces.egg-info/SOURCES.txt'
+[1.244s] reading manifest file 'chapt4_interfaces.egg-info/SOURCES.txt'
+[1.244s] writing manifest file 'chapt4_interfaces.egg-info/SOURCES.txt'
+[1.254s] [ 38%] Built target ament_cmake_python_build_chapt4_interfaces_egg
+[1.257s] [ 41%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.290s] [ 45%] [32m[1mLinking CXX shared library libchapt4_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[1.320s] [ 45%] Built target chapt4_interfaces__rosidl_typesupport_introspection_cpp
+[1.323s] [ 48%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.371s] [ 51%] [32mBuilding CXX object CMakeFiles/chapt4_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/chapt4_interfaces/srv/detail/face_detector__type_support_c.cpp.o[0m
+[1.432s] [ 54%] [32mBuilding C object CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/face_detector__type_support.c.o[0m
+[1.449s] [ 58%] [32m[1mLinking C shared library libchapt4_interfaces__rosidl_typesupport_introspection_c.so[0m
+[1.463s] [ 58%] Built target chapt4_interfaces__rosidl_typesupport_introspection_c
+[1.465s] [ 61%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.483s] [ 64%] [32m[1mLinking CXX shared library libchapt4_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[1.507s] [ 64%] Built target chapt4_interfaces__rosidl_typesupport_fastrtps_c
+[1.562s] [ 67%] [32mBuilding CXX object CMakeFiles/chapt4_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chapt4_interfaces/srv/face_detector__type_support.cpp.o[0m
+[1.573s] [ 70%] [32m[1mLinking CXX shared library libchapt4_interfaces__rosidl_typesupport_c.so[0m
+[1.585s] [ 70%] Built target chapt4_interfaces__rosidl_typesupport_c
+[1.590s] [ 70%] Built target chapt4_interfaces
+[1.596s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[1.755s] [ 74%] Built target chapt4_interfaces__py
+[1.760s] [ 77%] [32mBuilding C object CMakeFiles/chapt4_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chapt4_interfaces/srv/_face_detector_s.c.o[0m
+[1.808s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/chapt4_interfaces/libchapt4_interfaces__rosidl_generator_py.so[0m
+[1.822s] [ 80%] Built target chapt4_interfaces__rosidl_generator_py
+[1.827s] [ 83%] [32mBuilding C object CMakeFiles/chapt4_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[1.828s] [ 87%] [32mBuilding C object CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[1.861s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[1.861s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[1.874s] [ 93%] Built target chapt4_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.874s] [ 93%] Built target chapt4_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.879s] [ 96%] [32mBuilding C object CMakeFiles/chapt4_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[1.911s] [100%] [32m[1mLinking C shared library rosidl_generator_py/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[1.924s] [100%] Built target chapt4_interfaces__rosidl_typesupport_c__pyext
+[1.927s] Invoked command in '/home/bohn/FishRos/chapt4/chapt4_ws/src/build/chapt4_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bohn/FishRos/chapt4/chapt4_ws/src/build/chapt4_interfaces -- -j2 -l2
+[1.930s] Invoking command in '/home/bohn/FishRos/chapt4/chapt4_ws/src/build/chapt4_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/bohn/FishRos/chapt4/chapt4_ws/src/build/chapt4_interfaces
+[1.932s] -- Install configuration: ""
+[1.932s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/ament_index/resource_index/rosidl_interfaces/chapt4_interfaces
+[1.932s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces
+[1.932s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg
+[1.932s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg/rosidl_generator_c__visibility_control.h
+[1.932s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv
+[1.932s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/face_detector.h
+[1.932s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail
+[1.932s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__type_support.h
+[1.933s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__functions.h
+[1.933s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__functions.c
+[1.933s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__struct.h
+[1.933s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/environment/library_path.sh
+[1.933s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/environment/library_path.dsv
+[1.933s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_generator_c.so
+[1.933s] -- Set runtime path of "/home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_generator_c.so" to ""
+[1.933s] -- Up-to-date: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces
+[1.933s] -- Up-to-date: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg
+[1.933s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.933s] -- Up-to-date: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv
+[1.933s] -- Up-to-date: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail
+[1.933s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_fastrtps_c.h
+[1.933s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_fastrtps_c.so
+[1.933s] -- Set runtime path of "/home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[1.933s] -- Up-to-date: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces
+[1.933s] -- Up-to-date: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg
+[1.934s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.934s] -- Up-to-date: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv
+[1.934s] -- Up-to-date: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail
+[1.934s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__type_support.c
+[1.934s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_c.h
+[1.934s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_introspection_c.so
+[1.934s] -- Set runtime path of "/home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[1.934s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_c.so
+[1.934s] -- Set runtime path of "/home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_c.so" to ""
+[1.934s] -- Up-to-date: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces
+[1.934s] -- Up-to-date: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg
+[1.934s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.934s] -- Up-to-date: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv
+[1.934s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/face_detector.hpp
+[1.934s] -- Up-to-date: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail
+[1.934s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__type_support.hpp
+[1.934s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__traits.hpp
+[1.934s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__builder.hpp
+[1.934s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__struct.hpp
+[1.934s] -- Up-to-date: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces
+[1.935s] -- Up-to-date: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg
+[1.935s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.935s] -- Up-to-date: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv
+[1.935s] -- Up-to-date: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail
+[1.935s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_fastrtps_cpp.hpp
+[1.935s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/dds_fastrtps
+[1.935s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[1.935s] -- Set runtime path of "/home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[1.935s] -- Up-to-date: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces
+[1.935s] -- Up-to-date: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv
+[1.935s] -- Up-to-date: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail
+[1.935s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__type_support.cpp
+[1.935s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_cpp.hpp
+[1.935s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_introspection_cpp.so
+[1.935s] -- Set runtime path of "/home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[1.935s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_cpp.so
+[1.935s] -- Set runtime path of "/home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_cpp.so" to ""
+[1.935s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/environment/pythonpath.sh
+[1.935s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/environment/pythonpath.dsv
+[1.936s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces-0.0.0-py3.10.egg-info
+[1.936s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.936s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.936s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[1.936s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[1.936s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces
+[1.936s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/libchapt4_interfaces__rosidl_generator_py.so
+[1.936s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[1.936s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[1.937s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[1.937s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.937s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_c.c
+[1.937s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/__init__.py
+[1.937s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[1.937s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv
+[1.937s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv/_face_detector.py
+[1.937s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv/_face_detector_s.c
+[1.937s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv/__init__.py
+[1.949s] Listing '/home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces'...
+[1.949s] Compiling '/home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/__init__.py'...
+[1.949s] Listing '/home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv'...
+[1.949s] Compiling '/home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv/__init__.py'...
+[1.949s] Compiling '/home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv/_face_detector.py'...
+[1.951s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[1.952s] -- Set runtime path of "/home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[1.952s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[1.952s] -- Set runtime path of "/home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[1.952s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[1.952s] -- Set runtime path of "/home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[1.952s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_generator_py.so
+[1.952s] -- Set runtime path of "/home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_generator_py.so" to ""
+[1.952s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/srv/FaceDetector.idl
+[1.952s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/srv/FaceDetector.srv
+[1.952s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/srv/FaceDetector_Request.msg
+[1.952s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/srv/FaceDetector_Response.msg
+[1.952s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/ament_index/resource_index/package_run_dependencies/chapt4_interfaces
+[1.952s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/ament_index/resource_index/parent_prefix_path/chapt4_interfaces
+[1.953s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/environment/ament_prefix_path.sh
+[1.953s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/environment/ament_prefix_path.dsv
+[1.953s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/environment/path.sh
+[1.953s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/environment/path.dsv
+[1.953s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/local_setup.bash
+[1.953s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/local_setup.sh
+[1.953s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/local_setup.zsh
+[1.953s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/local_setup.dsv
+[1.953s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/package.dsv
+[1.953s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/ament_index/resource_index/packages/chapt4_interfaces
+[1.953s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_generator_cExport.cmake
+[1.953s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_generator_cExport-noconfig.cmake
+[1.953s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[1.953s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.953s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[1.953s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.953s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_cExport.cmake
+[1.954s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[1.954s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_generator_cppExport.cmake
+[1.954s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.954s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.954s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[1.954s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.954s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_cppExport.cmake
+[1.954s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[1.954s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_generator_pyExport.cmake
+[1.954s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[1.954s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/cmake/rosidl_cmake-extras.cmake
+[1.954s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.954s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.954s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[1.954s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[1.954s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.954s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.955s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfacesConfig.cmake
+[1.955s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfacesConfig-version.cmake
+[1.955s] -- Installing: /home/bohn/FishRos/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/package.xml
+[1.955s] Invoked command in '/home/bohn/FishRos/chapt4/chapt4_ws/src/build/chapt4_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/bohn/FishRos/chapt4/chapt4_ws/src/build/chapt4_interfaces

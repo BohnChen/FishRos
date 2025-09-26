@@ -1,0 +1,27 @@
+[0.200s] Invoking command in '/home/bohn/FishRos/chapt2/chapt2_ws/src/demo_python_pkg': AMENT_PREFIX_PATH=/home/bohn/FishRos/chapt2/chapt2_ws/install/demo_cpp_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bohn/FishRos/chapt2/chapt2_ws/install/demo_cpp_pkg PYTHONPATH=/home/bohn/FishRos/chapt2/chapt2_ws/build/demo_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bohn/FishRos/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_pkg build --build-base /home/bohn/FishRos/chapt2/chapt2_ws/build/demo_python_pkg/build install --record /home/bohn/FishRos/chapt2/chapt2_ws/build/demo_python_pkg/install.log --single-version-externally-managed install_data
+[0.274s] running egg_info
+[0.274s] writing ../../build/demo_python_pkg/demo_python_pkg.egg-info/PKG-INFO
+[0.274s] writing dependency_links to ../../build/demo_python_pkg/demo_python_pkg.egg-info/dependency_links.txt
+[0.274s] writing entry points to ../../build/demo_python_pkg/demo_python_pkg.egg-info/entry_points.txt
+[0.274s] writing requirements to ../../build/demo_python_pkg/demo_python_pkg.egg-info/requires.txt
+[0.274s] writing top-level names to ../../build/demo_python_pkg/demo_python_pkg.egg-info/top_level.txt
+[0.275s] reading manifest file '../../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+[0.275s] adding license file 'LICENSE'
+[0.275s] writing manifest file '../../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+[0.275s] running build
+[0.275s] running build_py
+[0.275s] copying demo_python_pkg/writer_node.py -> /home/bohn/FishRos/chapt2/chapt2_ws/build/demo_python_pkg/build/lib/demo_python_pkg
+[0.275s] running install
+[0.275s] running install_lib
+[0.275s] copying /home/bohn/FishRos/chapt2/chapt2_ws/build/demo_python_pkg/build/lib/demo_python_pkg/writer_node.py -> /home/bohn/FishRos/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg
+[0.276s] byte-compiling /home/bohn/FishRos/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg/writer_node.py to writer_node.cpython-310.pyc
+[0.276s] running install_data
+[0.276s] running install_egg_info
+[0.277s] removing '/home/bohn/FishRos/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.277s] Copying ../../build/demo_python_pkg/demo_python_pkg.egg-info to /home/bohn/FishRos/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg-0.0.0-py3.10.egg-info
+[0.277s] running install_scripts
+[0.284s] Installing person_node script to /home/bohn/FishRos/chapt2/chapt2_ws/install/demo_python_pkg/lib/demo_python_pkg
+[0.284s] Installing python_node script to /home/bohn/FishRos/chapt2/chapt2_ws/install/demo_python_pkg/lib/demo_python_pkg
+[0.284s] Installing writer_node script to /home/bohn/FishRos/chapt2/chapt2_ws/install/demo_python_pkg/lib/demo_python_pkg
+[0.284s] writing list of installed files to '/home/bohn/FishRos/chapt2/chapt2_ws/build/demo_python_pkg/install.log'
+[0.293s] Invoked command in '/home/bohn/FishRos/chapt2/chapt2_ws/src/demo_python_pkg' returned '0': AMENT_PREFIX_PATH=/home/bohn/FishRos/chapt2/chapt2_ws/install/demo_cpp_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bohn/FishRos/chapt2/chapt2_ws/install/demo_cpp_pkg PYTHONPATH=/home/bohn/FishRos/chapt2/chapt2_ws/build/demo_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bohn/FishRos/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_pkg build --build-base /home/bohn/FishRos/chapt2/chapt2_ws/build/demo_python_pkg/build install --record /home/bohn/FishRos/chapt2/chapt2_ws/build/demo_python_pkg/install.log --single-version-externally-managed install_data

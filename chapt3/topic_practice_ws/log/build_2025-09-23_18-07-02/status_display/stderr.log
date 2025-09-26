@@ -1,0 +1,7 @@
+[01m[K/home/bohn/FishRos/chapt3/topic_practice_ws/src/status_display/src/sys_status_display.cpp:42:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   42 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+gmake[2]: *** [CMakeFiles/sys_status_display.dir/build.make:76: CMakeFiles/sys_status_display.dir/src/sys_status_display.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/sys_status_display.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

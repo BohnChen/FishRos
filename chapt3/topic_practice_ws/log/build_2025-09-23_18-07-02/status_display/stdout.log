@@ -1,0 +1,3 @@
+[ 50%] Built target hello_qt
+[35m[1mConsolidate compiler generated dependencies of target sys_status_display[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/sys_status_display.dir/src/sys_status_display.cpp.o[0m

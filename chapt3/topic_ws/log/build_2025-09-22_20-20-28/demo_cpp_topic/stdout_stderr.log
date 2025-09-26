@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target turtle_control[0m
+[ 50%] Built target turtle_circle
+[ 75%] [32mBuilding CXX object CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o[0m
+[100%] [32m[1mLinking CXX executable turtle_control[0m
+[100%] Built target turtle_control
+-- Install configuration: ""
+-- Up-to-date: /home/bohn/FishRos/chapt3/topic_ws/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_circle
+-- Installing: /home/bohn/FishRos/chapt3/topic_ws/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_control
+-- Set runtime path of "/home/bohn/FishRos/chapt3/topic_ws/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_control" to ""
+-- Up-to-date: /home/bohn/FishRos/chapt3/topic_ws/install/demo_cpp_topic/share/ament_index/resource_index/package_run_dependencies/demo_cpp_topic
+-- Installing: /home/bohn/FishRos/chapt3/topic_ws/install/demo_cpp_topic/share/ament_index/resource_index/parent_prefix_path/demo_cpp_topic
+-- Up-to-date: /home/bohn/FishRos/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.sh
+-- Installing: /home/bohn/FishRos/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/bohn/FishRos/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.sh
+-- Installing: /home/bohn/FishRos/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.dsv
+-- Up-to-date: /home/bohn/FishRos/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.bash
+-- Up-to-date: /home/bohn/FishRos/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.sh
+-- Up-to-date: /home/bohn/FishRos/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.zsh
+-- Installing: /home/bohn/FishRos/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.dsv
+-- Installing: /home/bohn/FishRos/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/package.dsv
+-- Up-to-date: /home/bohn/FishRos/chapt3/topic_ws/install/demo_cpp_topic/share/ament_index/resource_index/packages/demo_cpp_topic
+-- Up-to-date: /home/bohn/FishRos/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig.cmake
+-- Up-to-date: /home/bohn/FishRos/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig-version.cmake
+-- Up-to-date: /home/bohn/FishRos/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/package.xml

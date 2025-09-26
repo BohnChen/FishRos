@@ -1,0 +1,11 @@
+[01m[K/home/bohn/FishRos/chapt3/topic_ws/src/demo_cpp_topic/src/turtle_circle.cpp:13:24:[m[K [01;31m[Kerror: [m[K‘[01m[KSharePtr[m[K’ in ‘[01m[Kclass rclcpp::TimerBase[m[K’ does not name a type
+   13 |     rclcpp::TimerBase::[01;31m[KSharePtr[m[K timer_;
+      |                        [01;31m[K^~~~~~~~[m[K
+[01m[K/home/bohn/FishRos/chapt3/topic_ws/src/demo_cpp_topic/src/turtle_circle.cpp:[m[K In constructor ‘[01m[KTurtleCircle::TurtleCircle(const string&)[m[K’:
+[01m[K/home/bohn/FishRos/chapt3/topic_ws/src/demo_cpp_topic/src/turtle_circle.cpp:23:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+   23 |         [01;31m[Ktimer_[m[K = this->create_wall_timer(1000ms, std::bind(&TurtleCircle::timer_callback, this));
+      |         [01;31m[K^~~~~~[m[K
+      |         [32m[Ktimer_t[m[K
+gmake[2]: *** [CMakeFiles/turtle_circle.dir/build.make:76: CMakeFiles/turtle_circle.dir/src/turtle_circle.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/turtle_circle.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

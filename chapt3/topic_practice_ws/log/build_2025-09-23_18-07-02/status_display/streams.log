@@ -1,0 +1,12 @@
+[0.006s] Invoking command in '/home/bohn/FishRos/chapt3/topic_practice_ws/build/status_display': CMAKE_PREFIX_PATH=/home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces:/home/bohn/FishRos/chapt3/topic_practice_ws/install/status_display:/home/bohn/FishRos/chapt3/topic_practice_ws/install/status_publisher:/home/bohn/FishRos/chapt3/topic_ws/install/demo_python_topic:/opt/ros/humble /usr/bin/cmake --build /home/bohn/FishRos/chapt3/topic_practice_ws/build/status_display -- -j2 -l2
+[0.035s] [ 50%] Built target hello_qt
+[0.041s] [35m[1mConsolidate compiler generated dependencies of target sys_status_display[0m
+[0.052s] [ 75%] [32mBuilding CXX object CMakeFiles/sys_status_display.dir/src/sys_status_display.cpp.o[0m
+[1.141s] [01m[K/home/bohn/FishRos/chapt3/topic_practice_ws/src/status_display/src/sys_status_display.cpp:42:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[1.141s]    42 | }
+[1.141s]       |  [01;31m[K^[m[K
+[1.141s]       |  [32m[K;[m[K
+[2.002s] gmake[2]: *** [CMakeFiles/sys_status_display.dir/build.make:76: CMakeFiles/sys_status_display.dir/src/sys_status_display.cpp.o] Error 1
+[2.002s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/sys_status_display.dir/all] Error 2
+[2.002s] gmake: *** [Makefile:146: all] Error 2
+[2.004s] Invoked command in '/home/bohn/FishRos/chapt3/topic_practice_ws/build/status_display' returned '2': CMAKE_PREFIX_PATH=/home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces:/home/bohn/FishRos/chapt3/topic_practice_ws/install/status_display:/home/bohn/FishRos/chapt3/topic_practice_ws/install/status_publisher:/home/bohn/FishRos/chapt3/topic_ws/install/demo_python_topic:/opt/ros/humble /usr/bin/cmake --build /home/bohn/FishRos/chapt3/topic_practice_ws/build/status_display -- -j2 -l2

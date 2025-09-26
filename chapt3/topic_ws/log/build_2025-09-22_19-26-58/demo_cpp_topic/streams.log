@@ -1,0 +1,59 @@
+[0.004s] Invoking command in '/home/bohn/FishRos/chapt3/topic_ws/build/demo_cpp_topic': CMAKE_PREFIX_PATH=/home/bohn/FishRos/chapt3/topic_ws/install/demo_python_topic:/opt/ros/humble /usr/bin/cmake /home/bohn/FishRos/chapt3/topic_ws/src/demo_cpp_topic -DCMAKE_INSTALL_PREFIX=/home/bohn/FishRos/chapt3/topic_ws/install/demo_cpp_topic
+[0.071s] -- The C compiler identification is GNU 11.4.0
+[0.117s] -- The CXX compiler identification is GNU 11.4.0
+[0.124s] -- Detecting C compiler ABI info
+[0.150s] -- Detecting C compiler ABI info - done
+[0.153s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.153s] -- Detecting C compile features
+[0.154s] -- Detecting C compile features - done
+[0.155s] -- Detecting CXX compiler ABI info
+[0.181s] -- Detecting CXX compiler ABI info - done
+[0.184s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.184s] -- Detecting CXX compile features
+[0.184s] -- Detecting CXX compile features - done
+[0.192s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.248s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.289s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.316s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.319s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.324s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.331s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.339s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.363s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.364s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.400s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.411s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.427s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.433s] -- Looking for pthread.h
+[0.463s] -- Looking for pthread.h - found
+[0.463s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.487s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.487s] -- Found Threads: TRUE  
+[0.515s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.522s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[0.544s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.577s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.577s] -- Configured cppcheck include dirs: 
+[0.577s] -- Configured cppcheck exclude dirs and/or files: 
+[0.577s] -- Added test 'lint_cmake' to check CMake code style
+[0.578s] -- Added test 'uncrustify' to check C / C++ code style
+[0.578s] -- Configured uncrustify additional arguments: 
+[0.578s] -- Added test 'xmllint' to check XML markup files
+[0.578s] -- Configuring done
+[0.582s] -- Generating done
+[0.583s] -- Build files have been written to: /home/bohn/FishRos/chapt3/topic_ws/build/demo_cpp_topic
+[0.587s] Invoked command in '/home/bohn/FishRos/chapt3/topic_ws/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=/home/bohn/FishRos/chapt3/topic_ws/install/demo_python_topic:/opt/ros/humble /usr/bin/cmake /home/bohn/FishRos/chapt3/topic_ws/src/demo_cpp_topic -DCMAKE_INSTALL_PREFIX=/home/bohn/FishRos/chapt3/topic_ws/install/demo_cpp_topic
+[0.588s] Invoking command in '/home/bohn/FishRos/chapt3/topic_ws/build/demo_cpp_topic': CMAKE_PREFIX_PATH=/home/bohn/FishRos/chapt3/topic_ws/install/demo_python_topic:/opt/ros/humble /usr/bin/cmake --build /home/bohn/FishRos/chapt3/topic_ws/build/demo_cpp_topic -- -j2 -l2
+[0.602s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_circle.dir/src/turtle_circle.cpp.o[0m
+[1.434s] [01m[K/home/bohn/FishRos/chapt3/topic_ws/src/demo_cpp_topic/src/turtle_circle.cpp:13:24:[m[K [01;31m[Kerror: [m[K‘[01m[KSharePtr[m[K’ in ‘[01m[Kclass rclcpp::TimerBase[m[K’ does not name a type
+[1.434s]    13 |     rclcpp::TimerBase::[01;31m[KSharePtr[m[K timer_;
+[1.434s]       |                        [01;31m[K^~~~~~~~[m[K
+[1.439s] [01m[K/home/bohn/FishRos/chapt3/topic_ws/src/demo_cpp_topic/src/turtle_circle.cpp:[m[K In constructor ‘[01m[KTurtleCircle::TurtleCircle(const string&)[m[K’:
+[1.439s] [01m[K/home/bohn/FishRos/chapt3/topic_ws/src/demo_cpp_topic/src/turtle_circle.cpp:23:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+[1.439s]    23 |         [01;31m[Ktimer_[m[K = this->create_wall_timer(1000ms, std::bind(&TurtleCircle::timer_callback, this));
+[1.439s]       |         [01;31m[K^~~~~~[m[K
+[1.439s]       |         [32m[Ktimer_t[m[K
+[1.709s] gmake[2]: *** [CMakeFiles/turtle_circle.dir/build.make:76: CMakeFiles/turtle_circle.dir/src/turtle_circle.cpp.o] Error 1
+[1.709s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/turtle_circle.dir/all] Error 2
+[1.709s] gmake: *** [Makefile:146: all] Error 2
+[1.713s] Invoked command in '/home/bohn/FishRos/chapt3/topic_ws/build/demo_cpp_topic' returned '2': CMAKE_PREFIX_PATH=/home/bohn/FishRos/chapt3/topic_ws/install/demo_python_topic:/opt/ros/humble /usr/bin/cmake --build /home/bohn/FishRos/chapt3/topic_ws/build/demo_cpp_topic -- -j2 -l2

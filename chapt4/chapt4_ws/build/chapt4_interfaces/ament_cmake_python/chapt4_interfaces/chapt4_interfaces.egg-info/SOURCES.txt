@@ -1,0 +1,8 @@
+setup.py
+chapt4_interfaces/__init__.py
+chapt4_interfaces.egg-info/PKG-INFO
+chapt4_interfaces.egg-info/SOURCES.txt
+chapt4_interfaces.egg-info/dependency_links.txt
+chapt4_interfaces.egg-info/top_level.txt
+chapt4_interfaces/srv/__init__.py
+chapt4_interfaces/srv/_face_detector.py

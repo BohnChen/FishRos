@@ -1,0 +1,22 @@
+[0.004s] Invoking command in '/home/bohn/FishRos/chapt2/chapt2_ws/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bohn/FishRos/chapt2/chapt2_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/bohn/FishRos/chapt2/chapt2_ws/build/demo_cpp_pkg -- -j2 -l2
+[0.026s] [100%] Built target cpp_node
+[0.030s] Invoked command in '/home/bohn/FishRos/chapt2/chapt2_ws/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bohn/FishRos/chapt2/chapt2_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/bohn/FishRos/chapt2/chapt2_ws/build/demo_cpp_pkg -- -j2 -l2
+[0.033s] Invoking command in '/home/bohn/FishRos/chapt2/chapt2_ws/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bohn/FishRos/chapt2/chapt2_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/bohn/FishRos/chapt2/chapt2_ws/build/demo_cpp_pkg
+[0.035s] -- Install configuration: ""
+[0.036s] -- Up-to-date: /home/bohn/FishRos/chapt2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/cpp_node
+[0.036s] -- Up-to-date: /home/bohn/FishRos/chapt2/chapt2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/demo_cpp_pkg
+[0.036s] -- Up-to-date: /home/bohn/FishRos/chapt2/chapt2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/demo_cpp_pkg
+[0.036s] -- Up-to-date: /home/bohn/FishRos/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.sh
+[0.036s] -- Up-to-date: /home/bohn/FishRos/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.dsv
+[0.036s] -- Up-to-date: /home/bohn/FishRos/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.sh
+[0.036s] -- Up-to-date: /home/bohn/FishRos/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.dsv
+[0.036s] -- Up-to-date: /home/bohn/FishRos/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.bash
+[0.036s] -- Up-to-date: /home/bohn/FishRos/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.sh
+[0.036s] -- Up-to-date: /home/bohn/FishRos/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.zsh
+[0.036s] -- Up-to-date: /home/bohn/FishRos/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.dsv
+[0.036s] -- Installing: /home/bohn/FishRos/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/package.dsv
+[0.036s] -- Up-to-date: /home/bohn/FishRos/chapt2/chapt2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/packages/demo_cpp_pkg
+[0.036s] -- Up-to-date: /home/bohn/FishRos/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig.cmake
+[0.036s] -- Up-to-date: /home/bohn/FishRos/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig-version.cmake
+[0.036s] -- Up-to-date: /home/bohn/FishRos/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/package.xml
+[0.040s] Invoked command in '/home/bohn/FishRos/chapt2/chapt2_ws/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bohn/FishRos/chapt2/chapt2_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/bohn/FishRos/chapt2/chapt2_ws/build/demo_cpp_pkg

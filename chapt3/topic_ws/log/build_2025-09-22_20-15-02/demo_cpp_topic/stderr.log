@@ -1,0 +1,22 @@
+[01m[K/home/bohn/FishRos/chapt3/topic_ws/src/demo_cpp_topic/src/turtle_control.cpp:50:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   50 |     rclcpp::Subscription<turtlesim:msg::Pose[01;31m[K>[m[K::SharedPtr pose_subscription_;
+      |                                             [01;31m[K^[m[K
+[01m[K/home/bohn/FishRos/chapt3/topic_ws/src/demo_cpp_topic/src/turtle_control.cpp:50:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/bohn/FishRos/chapt3/topic_ws/src/demo_cpp_topic/src/turtle_control.cpp:50:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/bohn/FishRos/chapt3/topic_ws/src/demo_cpp_topic/src/turtle_control.cpp:50:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/bohn/FishRos/chapt3/topic_ws/src/demo_cpp_topic/src/turtle_control.cpp:50:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   50 |     rclcpp::Subscription<turtlesim:msg::Pose>::[01;31m[KSharedPtr[m[K pose_subscription_;
+      |                                                [01;31m[K^~~~~~~~~[m[K
+      |                                                         [32m[K;[m[K
+[01m[K/home/bohn/FishRos/chapt3/topic_ws/src/demo_cpp_topic/src/turtle_control.cpp:50:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_subscription_[m[K’ does not name a type; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   50 |     rclcpp::Subscription<turtlesim:msg::Pose>::SharedPtr [01;31m[Kpose_subscription_[m[K;
+      |                                                          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                                                          [32m[Krmw_subscription_t[m[K
+[01m[K/home/bohn/FishRos/chapt3/topic_ws/src/demo_cpp_topic/src/turtle_control.cpp:[m[K In constructor ‘[01m[KTurtleController::TurtleController()[m[K’:
+[01m[K/home/bohn/FishRos/chapt3/topic_ws/src/demo_cpp_topic/src/turtle_control.cpp:10:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_subscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   10 |         [01;31m[Kpose_subscription_[m[K = this->create_subscription<turtlesim::msg::Pose>("/turtle1/pose",10,
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |         [32m[Krmw_subscription_t[m[K
+gmake[2]: *** [CMakeFiles/turtle_control.dir/build.make:76: CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/turtle_control.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

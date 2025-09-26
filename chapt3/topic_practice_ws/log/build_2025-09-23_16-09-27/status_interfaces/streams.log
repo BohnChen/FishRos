@@ -1,0 +1,215 @@
+[0.004s] Invoking command in '/home/bohn/FishRos/chapt3/topic_practice_ws/build/status_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bohn/FishRos/chapt3/topic_practice_ws/src/status_interfaces -DCMAKE_INSTALL_PREFIX=/home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces
+[0.008s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.056s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.057s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.058s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.069s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.077s] -- Found builtin_interfaces: 1.2.2 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.176s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.257s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.348s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.357s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.359s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.370s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[0.370s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.370s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.370s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[0.379s] -- Found PythonExtra: .so  
+[0.392s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.404s] -- Added test 'lint_cmake' to check CMake code style
+[0.405s] -- Added test 'xmllint' to check XML markup files
+[0.406s] -- Configuring done
+[0.418s] -- Generating done
+[0.422s] -- Build files have been written to: /home/bohn/FishRos/chapt3/topic_practice_ws/build/status_interfaces
+[0.425s] Invoked command in '/home/bohn/FishRos/chapt3/topic_practice_ws/build/status_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bohn/FishRos/chapt3/topic_practice_ws/src/status_interfaces -DCMAKE_INSTALL_PREFIX=/home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces
+[0.426s] Invoking command in '/home/bohn/FishRos/chapt3/topic_practice_ws/build/status_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bohn/FishRos/chapt3/topic_practice_ws/build/status_interfaces -- -j2 -l2
+[0.438s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.441s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.590s] [  6%] Built target status_interfaces__cpp
+[0.595s] [  9%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_generator_c.dir/rosidl_generator_c/status_interfaces/msg/detail/system_status__functions.c.o[0m
+[0.606s] [  9%] Built target ament_cmake_python_copy_status_interfaces
+[0.612s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[0.624s] [ 16%] [32m[1mLinking C shared library libstatus_interfaces__rosidl_generator_c.so[0m
+[0.639s] [ 16%] Built target status_interfaces__rosidl_generator_c
+[0.642s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[0.730s] [ 22%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/status_interfaces/msg/system_status__type_support.cpp.o[0m
+[0.813s] [ 25%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/status_interfaces/msg/detail/dds_fastrtps/system_status__type_support.cpp.o[0m
+[0.860s] [ 29%] [32m[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_cpp.so[0m
+[0.876s] [ 29%] Built target status_interfaces__rosidl_typesupport_cpp
+[0.879s] [ 32%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.034s] [ 35%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/status_interfaces/msg/detail/system_status__type_support.cpp.o[0m
+[1.214s] [ 38%] [32m[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[1.220s] [ 41%] [32m[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.265s] [ 41%] Built target status_interfaces__rosidl_typesupport_introspection_cpp
+[1.270s] [ 41%] Built target status_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.279s] [ 45%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.354s] running egg_info
+[1.355s] creating status_interfaces.egg-info
+[1.355s] writing status_interfaces.egg-info/PKG-INFO
+[1.355s] writing dependency_links to status_interfaces.egg-info/dependency_links.txt
+[1.355s] writing top-level names to status_interfaces.egg-info/top_level.txt
+[1.355s] writing manifest file 'status_interfaces.egg-info/SOURCES.txt'
+[1.365s] reading manifest file 'status_interfaces.egg-info/SOURCES.txt'
+[1.365s] writing manifest file 'status_interfaces.egg-info/SOURCES.txt'
+[1.409s] [ 45%] Built target ament_cmake_python_build_status_interfaces_egg
+[1.439s] [ 48%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.537s] [ 51%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/status_interfaces/msg/detail/system_status__type_support_c.cpp.o[0m
+[1.584s] [ 54%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/status_interfaces/msg/detail/system_status__type_support.c.o[0m
+[1.600s] [ 58%] [32m[1mLinking C shared library libstatus_interfaces__rosidl_typesupport_introspection_c.so[0m
+[1.609s] [ 58%] Built target status_interfaces__rosidl_typesupport_introspection_c
+[1.613s] [ 61%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.672s] [ 64%] [32m[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[1.703s] [ 64%] Built target status_interfaces__rosidl_typesupport_fastrtps_c
+[1.724s] [ 67%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/status_interfaces/msg/system_status__type_support.cpp.o[0m
+[1.737s] [ 70%] [32m[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_c.so[0m
+[1.753s] [ 70%] Built target status_interfaces__rosidl_typesupport_c
+[1.758s] [ 70%] Built target status_interfaces
+[1.765s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[1.931s] [ 74%] Built target status_interfaces__py
+[1.937s] [ 77%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_generator_py.dir/rosidl_generator_py/status_interfaces/msg/_system_status_s.c.o[0m
+[1.997s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/status_interfaces/libstatus_interfaces__rosidl_generator_py.so[0m
+[2.010s] [ 80%] Built target status_interfaces__rosidl_generator_py
+[2.016s] [ 83%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.018s] [ 87%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.054s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[2.054s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[2.067s] [ 93%] Built target status_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.069s] [ 93%] Built target status_interfaces__rosidl_typesupport_introspection_c__pyext
+[2.073s] [ 96%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[2.108s] [100%] [32m[1mLinking C shared library rosidl_generator_py/status_interfaces/status_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[2.120s] [100%] Built target status_interfaces__rosidl_typesupport_c__pyext
+[2.126s] Invoked command in '/home/bohn/FishRos/chapt3/topic_practice_ws/build/status_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bohn/FishRos/chapt3/topic_practice_ws/build/status_interfaces -- -j2 -l2
+[2.130s] Invoking command in '/home/bohn/FishRos/chapt3/topic_practice_ws/build/status_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bohn/FishRos/chapt3/topic_practice_ws/build/status_interfaces
+[2.132s] -- Install configuration: ""
+[2.132s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/share/ament_index/resource_index/rosidl_interfaces/status_interfaces
+[2.132s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces
+[2.133s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[2.133s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/system_status.h
+[2.133s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.133s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[2.133s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__functions.h
+[2.133s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__struct.h
+[2.133s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.h
+[2.133s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__functions.c
+[2.133s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/library_path.sh
+[2.133s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/library_path.dsv
+[2.133s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_c.so
+[2.133s] -- Set runtime path of "/home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_c.so" to ""
+[2.133s] -- Up-to-date: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces
+[2.134s] -- Up-to-date: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[2.134s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.134s] -- Up-to-date: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[2.134s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_fastrtps_c.h
+[2.134s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.134s] -- Set runtime path of "/home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[2.134s] -- Up-to-date: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces
+[2.134s] -- Up-to-date: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[2.134s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.134s] -- Up-to-date: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[2.134s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_introspection_c.h
+[2.134s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.c
+[2.134s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_c.so
+[2.134s] -- Set runtime path of "/home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[2.134s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_c.so
+[2.134s] -- Set runtime path of "/home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_c.so" to ""
+[2.135s] -- Up-to-date: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces
+[2.135s] -- Up-to-date: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[2.135s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/system_status.hpp
+[2.135s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.135s] -- Up-to-date: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[2.135s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.hpp
+[2.135s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__traits.hpp
+[2.135s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__builder.hpp
+[2.135s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__struct.hpp
+[2.135s] -- Up-to-date: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces
+[2.135s] -- Up-to-date: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[2.135s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.135s] -- Up-to-date: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[2.135s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/dds_fastrtps
+[2.135s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_fastrtps_cpp.hpp
+[2.135s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.136s] -- Set runtime path of "/home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.136s] -- Up-to-date: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces
+[2.136s] -- Up-to-date: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[2.136s] -- Up-to-date: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[2.136s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_introspection_cpp.hpp
+[2.136s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.cpp
+[2.136s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.136s] -- Set runtime path of "/home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[2.136s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_cpp.so
+[2.136s] -- Set runtime path of "/home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_cpp.so" to ""
+[2.136s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/pythonpath.sh
+[2.136s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/pythonpath.dsv
+[2.136s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info
+[2.136s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.137s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.137s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[2.138s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[2.138s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces
+[2.138s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/libstatus_interfaces__rosidl_generator_py.so
+[2.138s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.138s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg
+[2.138s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg/_system_status.py
+[2.138s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg/_system_status_s.c
+[2.138s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg/__init__.py
+[2.138s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.138s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[2.138s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/__init__.py
+[2.138s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[2.138s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_c.c
+[2.138s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[2.152s] Listing '/home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces'...
+[2.152s] Compiling '/home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/__init__.py'...
+[2.152s] Listing '/home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg'...
+[2.152s] Compiling '/home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg/__init__.py'...
+[2.152s] Compiling '/home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg/_system_status.py'...
+[2.154s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[2.154s] -- Set runtime path of "/home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[2.154s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[2.154s] -- Set runtime path of "/home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[2.154s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[2.154s] -- Set runtime path of "/home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[2.154s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_py.so
+[2.155s] -- Set runtime path of "/home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_py.so" to ""
+[2.155s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/msg/SystemStatus.idl
+[2.155s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/msg/SystemStatus.msg
+[2.155s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/share/ament_index/resource_index/package_run_dependencies/status_interfaces
+[2.155s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/share/ament_index/resource_index/parent_prefix_path/status_interfaces
+[2.155s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/ament_prefix_path.sh
+[2.155s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/ament_prefix_path.dsv
+[2.155s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/path.sh
+[2.155s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/path.dsv
+[2.155s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/local_setup.bash
+[2.155s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/local_setup.sh
+[2.155s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/local_setup.zsh
+[2.155s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/local_setup.dsv
+[2.155s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/package.dsv
+[2.155s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/share/ament_index/resource_index/packages/status_interfaces
+[2.155s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cExport.cmake
+[2.155s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.155s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[2.155s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.155s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.155s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.155s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cExport.cmake
+[2.155s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.155s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cppExport.cmake
+[2.156s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.156s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.156s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.156s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.156s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cppExport.cmake
+[2.156s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.156s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_pyExport.cmake
+[2.156s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[2.156s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.156s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.156s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.156s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.156s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.156s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.156s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.156s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfacesConfig.cmake
+[2.156s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfacesConfig-version.cmake
+[2.156s] -- Installing: /home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/package.xml
+[2.157s] Invoked command in '/home/bohn/FishRos/chapt3/topic_practice_ws/build/status_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bohn/FishRos/chapt3/topic_practice_ws/build/status_interfaces

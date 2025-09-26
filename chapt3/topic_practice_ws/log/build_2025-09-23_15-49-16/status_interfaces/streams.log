@@ -1,0 +1,35 @@
+[0.003s] Invoking command in '/home/bohn/FishRos/chapt3/topic_practice_ws/build/status_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bohn/FishRos/chapt3/topic_practice_ws/src/status_interfaces -DCMAKE_INSTALL_PREFIX=/home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces
+[0.050s] -- The C compiler identification is GNU 11.4.0
+[0.080s] -- The CXX compiler identification is GNU 11.4.0
+[0.085s] -- Detecting C compiler ABI info
+[0.119s] -- Detecting C compiler ABI info - done
+[0.119s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.119s] -- Detecting C compile features
+[0.120s] -- Detecting C compile features - done
+[0.121s] -- Detecting CXX compiler ABI info
+[0.151s] -- Detecting CXX compiler ABI info - done
+[0.153s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.153s] -- Detecting CXX compile features
+[0.154s] -- Detecting CXX compile features - done
+[0.155s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.228s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.277s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[0.277s]   By not providing "Findrosid1_default_generators.cmake" in CMAKE_MODULE_PATH
+[0.277s]   this project has asked CMake to find a package configuration file provided
+[0.277s]   by "rosid1_default_generators", but CMake did not find one.
+[0.277s] 
+[0.277s]   Could not find a package configuration file provided by
+[0.277s]   "rosid1_default_generators" with any of the following names:
+[0.277s] 
+[0.277s]     rosid1_default_generatorsConfig.cmake
+[0.277s]     rosid1_default_generators-config.cmake
+[0.277s] 
+[0.277s]   Add the installation prefix of "rosid1_default_generators" to
+[0.277s]   CMAKE_PREFIX_PATH or set "rosid1_default_generators_DIR" to a directory
+[0.277s]   containing one of the above files.  If "rosid1_default_generators" provides
+[0.277s]   a separate development package or SDK, be sure it has been installed.
+[0.277s] 
+[0.277s] [0m
+[0.277s] -- Configuring incomplete, errors occurred!
+[0.277s] See also "/home/bohn/FishRos/chapt3/topic_practice_ws/build/status_interfaces/CMakeFiles/CMakeOutput.log".
+[0.281s] Invoked command in '/home/bohn/FishRos/chapt3/topic_practice_ws/build/status_interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bohn/FishRos/chapt3/topic_practice_ws/src/status_interfaces -DCMAKE_INSTALL_PREFIX=/home/bohn/FishRos/chapt3/topic_practice_ws/install/status_interfaces

@@ -1,0 +1,23 @@
+running egg_info
+writing ../build/demo_python_service/demo_python_service.egg-info/PKG-INFO
+writing dependency_links to ../build/demo_python_service/demo_python_service.egg-info/dependency_links.txt
+writing entry points to ../build/demo_python_service/demo_python_service.egg-info/entry_points.txt
+writing requirements to ../build/demo_python_service/demo_python_service.egg-info/requires.txt
+writing top-level names to ../build/demo_python_service/demo_python_service.egg-info/top_level.txt
+reading manifest file '../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+running build
+running build_py
+copying demo_python_service/learn_face_detect.py -> /home/bohn/FishRos/chapt4/chapt4_ws/src/build/demo_python_service/build/lib/demo_python_service
+running install
+running install_lib
+copying /home/bohn/FishRos/chapt4/chapt4_ws/src/build/demo_python_service/build/lib/demo_python_service/learn_face_detect.py -> /home/bohn/FishRos/chapt4/chapt4_ws/src/install/demo_python_service/lib/python3.10/site-packages/demo_python_service
+byte-compiling /home/bohn/FishRos/chapt4/chapt4_ws/src/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/learn_face_detect.py to learn_face_detect.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/bohn/FishRos/chapt4/chapt4_ws/src/install/demo_python_service/lib/python3.10/site-packages/demo_python_service-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../build/demo_python_service/demo_python_service.egg-info to /home/bohn/FishRos/chapt4/chapt4_ws/src/install/demo_python_service/lib/python3.10/site-packages/demo_python_service-0.0.0-py3.10.egg-info
+running install_scripts
+Installing learn_face_detect script to /home/bohn/FishRos/chapt4/chapt4_ws/src/install/demo_python_service/lib/demo_python_service
+writing list of installed files to '/home/bohn/FishRos/chapt4/chapt4_ws/src/build/demo_python_service/install.log'

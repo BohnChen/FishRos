@@ -1,0 +1,16 @@
+[0.004s] Invoking command in '/home/bohn/FishRos/chapt2/chapt2_ws/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bohn/FishRos/chapt2/chapt2_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/bohn/FishRos/chapt2/chapt2_ws/build/demo_cpp_pkg -- -j2 -l2
+[0.028s] [ 25%] Built target person_node
+[0.031s] [ 33%] Built target cpp_node
+[0.034s] [ 50%] Built target learn_auto
+[0.038s] [35m[1mConsolidate compiler generated dependencies of target learn_lambda[0m
+[0.040s] [ 66%] Built target learn_shared_ptr
+[0.046s] [ 75%] [32mBuilding CXX object CMakeFiles/learn_function.dir/src/learn_function.cpp.o[0m
+[0.048s] [ 91%] Built target learn_lambda
+[0.146s] [01m[K/home/bohn/FishRos/chapt2/chapt2_ws/src/demo_cpp_pkg/src/learn_function.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[0.146s] [01m[K/home/bohn/FishRos/chapt2/chapt2_ws/src/demo_cpp_pkg/src/learn_function.cpp:32:75:[m[K [01;31m[Kerror: [m[K‘[01m[Ksave_withmember_fun[m[K’ is not a member of ‘[01m[KFileSave[m[K’
+[0.146s]    32 |     std::function<void(const std::string &)> save3 = std::bind(&FileSave::[01;31m[Ksave_withmember_fun[m[K,
+[0.146s]       |                                                                           [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.159s] gmake[2]: *** [CMakeFiles/learn_function.dir/build.make:76: CMakeFiles/learn_function.dir/src/learn_function.cpp.o] Error 1
+[0.160s] gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/learn_function.dir/all] Error 2
+[0.160s] gmake: *** [Makefile:146: all] Error 2
+[0.161s] Invoked command in '/home/bohn/FishRos/chapt2/chapt2_ws/build/demo_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bohn/FishRos/chapt2/chapt2_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/bohn/FishRos/chapt2/chapt2_ws/build/demo_cpp_pkg -- -j2 -l2
