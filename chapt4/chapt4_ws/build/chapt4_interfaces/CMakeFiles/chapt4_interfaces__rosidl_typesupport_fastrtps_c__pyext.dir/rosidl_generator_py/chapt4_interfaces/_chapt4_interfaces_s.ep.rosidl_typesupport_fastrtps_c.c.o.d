@@ -209,4 +209,7 @@ CMakeFiles/chapt4_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_ge
  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
- /home/bohn/FishRos/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_c/chapt4_interfaces/srv/detail/face_detector__functions.h
+ /home/bohn/FishRos/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_c/chapt4_interfaces/srv/detail/face_detector__functions.h \
+ /home/bohn/FishRos/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__type_support.h \
+ /home/bohn/FishRos/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__struct.h \
+ /home/bohn/FishRos/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__functions.h

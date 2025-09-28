@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/chapt4_interfaces/srv/__init__.py"
   "../rosidl_generator_py/chapt4_interfaces/srv/_face_detector.py"
   "../rosidl_generator_py/chapt4_interfaces/srv/_face_detector_s.c"
+  "../rosidl_generator_py/chapt4_interfaces/srv/_patrol.py"
+  "../rosidl_generator_py/chapt4_interfaces/srv/_patrol_s.c"
   "CMakeFiles/chapt4_interfaces__py"
 )
 

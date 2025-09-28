@@ -71,6 +71,11 @@ CMakeFiles/chapt4_interfaces__cpp: rosidl_generator_cpp/chapt4_interfaces/srv/de
 CMakeFiles/chapt4_interfaces__cpp: rosidl_generator_cpp/chapt4_interfaces/srv/detail/face_detector__struct.hpp
 CMakeFiles/chapt4_interfaces__cpp: rosidl_generator_cpp/chapt4_interfaces/srv/detail/face_detector__traits.hpp
 CMakeFiles/chapt4_interfaces__cpp: rosidl_generator_cpp/chapt4_interfaces/srv/detail/face_detector__type_support.hpp
+CMakeFiles/chapt4_interfaces__cpp: rosidl_generator_cpp/chapt4_interfaces/srv/patrol.hpp
+CMakeFiles/chapt4_interfaces__cpp: rosidl_generator_cpp/chapt4_interfaces/srv/detail/patrol__builder.hpp
+CMakeFiles/chapt4_interfaces__cpp: rosidl_generator_cpp/chapt4_interfaces/srv/detail/patrol__struct.hpp
+CMakeFiles/chapt4_interfaces__cpp: rosidl_generator_cpp/chapt4_interfaces/srv/detail/patrol__traits.hpp
+CMakeFiles/chapt4_interfaces__cpp: rosidl_generator_cpp/chapt4_interfaces/srv/detail/patrol__type_support.hpp
 CMakeFiles/chapt4_interfaces__cpp: rosidl_generator_cpp/chapt4_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
 
 rosidl_generator_cpp/chapt4_interfaces/srv/face_detector.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -89,6 +94,7 @@ rosidl_generator_cpp/chapt4_interfaces/srv/face_detector.hpp: /opt/ros/humble/sh
 rosidl_generator_cpp/chapt4_interfaces/srv/face_detector.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
 rosidl_generator_cpp/chapt4_interfaces/srv/face_detector.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/chapt4_interfaces/srv/face_detector.hpp: rosidl_adapter/chapt4_interfaces/srv/FaceDetector.idl
+rosidl_generator_cpp/chapt4_interfaces/srv/face_detector.hpp: rosidl_adapter/chapt4_interfaces/srv/Patrol.idl
 rosidl_generator_cpp/chapt4_interfaces/srv/face_detector.hpp: /opt/ros/humble/share/sensor_msgs/msg/BatteryState.idl
 rosidl_generator_cpp/chapt4_interfaces/srv/face_detector.hpp: /opt/ros/humble/share/sensor_msgs/msg/CameraInfo.idl
 rosidl_generator_cpp/chapt4_interfaces/srv/face_detector.hpp: /opt/ros/humble/share/sensor_msgs/msg/ChannelFloat32.idl
@@ -196,12 +202,32 @@ rosidl_generator_cpp/chapt4_interfaces/srv/detail/face_detector__traits.hpp: ros
 rosidl_generator_cpp/chapt4_interfaces/srv/detail/face_detector__type_support.hpp: rosidl_generator_cpp/chapt4_interfaces/srv/face_detector.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/chapt4_interfaces/srv/detail/face_detector__type_support.hpp
 
+rosidl_generator_cpp/chapt4_interfaces/srv/patrol.hpp: rosidl_generator_cpp/chapt4_interfaces/srv/face_detector.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/chapt4_interfaces/srv/patrol.hpp
+
+rosidl_generator_cpp/chapt4_interfaces/srv/detail/patrol__builder.hpp: rosidl_generator_cpp/chapt4_interfaces/srv/face_detector.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/chapt4_interfaces/srv/detail/patrol__builder.hpp
+
+rosidl_generator_cpp/chapt4_interfaces/srv/detail/patrol__struct.hpp: rosidl_generator_cpp/chapt4_interfaces/srv/face_detector.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/chapt4_interfaces/srv/detail/patrol__struct.hpp
+
+rosidl_generator_cpp/chapt4_interfaces/srv/detail/patrol__traits.hpp: rosidl_generator_cpp/chapt4_interfaces/srv/face_detector.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/chapt4_interfaces/srv/detail/patrol__traits.hpp
+
+rosidl_generator_cpp/chapt4_interfaces/srv/detail/patrol__type_support.hpp: rosidl_generator_cpp/chapt4_interfaces/srv/face_detector.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/chapt4_interfaces/srv/detail/patrol__type_support.hpp
+
 chapt4_interfaces__cpp: CMakeFiles/chapt4_interfaces__cpp
 chapt4_interfaces__cpp: rosidl_generator_cpp/chapt4_interfaces/srv/detail/face_detector__builder.hpp
 chapt4_interfaces__cpp: rosidl_generator_cpp/chapt4_interfaces/srv/detail/face_detector__struct.hpp
 chapt4_interfaces__cpp: rosidl_generator_cpp/chapt4_interfaces/srv/detail/face_detector__traits.hpp
 chapt4_interfaces__cpp: rosidl_generator_cpp/chapt4_interfaces/srv/detail/face_detector__type_support.hpp
+chapt4_interfaces__cpp: rosidl_generator_cpp/chapt4_interfaces/srv/detail/patrol__builder.hpp
+chapt4_interfaces__cpp: rosidl_generator_cpp/chapt4_interfaces/srv/detail/patrol__struct.hpp
+chapt4_interfaces__cpp: rosidl_generator_cpp/chapt4_interfaces/srv/detail/patrol__traits.hpp
+chapt4_interfaces__cpp: rosidl_generator_cpp/chapt4_interfaces/srv/detail/patrol__type_support.hpp
 chapt4_interfaces__cpp: rosidl_generator_cpp/chapt4_interfaces/srv/face_detector.hpp
+chapt4_interfaces__cpp: rosidl_generator_cpp/chapt4_interfaces/srv/patrol.hpp
 chapt4_interfaces__cpp: CMakeFiles/chapt4_interfaces__cpp.dir/build.make
 .PHONY : chapt4_interfaces__cpp
 

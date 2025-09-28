@@ -33,6 +33,20 @@ class FaceDetectorClient(Node) :
             f'接收到响应： 图像中共有： {response.number} 张脸， 耗时{response.use_time}')
         self.show_face_locations(response)
 
+    #def send_request(self) :
+    #    # 1. 判断服务是否上线
+    #    while self.client.wait_for_service(timeout_sec=1.0) is False:
+    #        self.get_logger().info(f"等待服务端上线...")
+    #    # 2. 构造 Request
+    #    request = FaceDetector.Request()
+    #    request.image = self.bridge.cv2_to_imgmsg(self.image)
+    #    # 3. 发送并spin 等待服务处理完成
+    #    future = self.client.call_async(request)
+    #    def request_callback(result_future):
+    #        response = result_future.result()
+    #        self.get_logger().info(f'接收到响应： 图像中共有： {response.number} 张脸， 耗时{response.use_time}')
+    #        self.show_face_locations(response)
+    #    future.add_done_callback(request_callback)
 
 
     def show_face_locations(self, response) :
@@ -49,4 +63,5 @@ def main(args=None) :
     rclpy.init(args=args)
     face_detect_client = FaceDetectorClient()
     face_detect_client.send_request()
+    #rclpy.spin(face_detect_client)
     rclpy.shutdown()

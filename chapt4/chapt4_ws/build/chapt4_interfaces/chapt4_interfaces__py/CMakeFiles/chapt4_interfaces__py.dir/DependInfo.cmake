@@ -17,6 +17,8 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/bohn/FishRos/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_py/chapt4_interfaces/srv/__init__.py" "/home/bohn/FishRos/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_py/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/bohn/FishRos/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_py/chapt4_interfaces/srv/_face_detector.py" "/home/bohn/FishRos/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_py/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/bohn/FishRos/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_py/chapt4_interfaces/srv/_face_detector_s.c" "/home/bohn/FishRos/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_py/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/bohn/FishRos/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_py/chapt4_interfaces/srv/_patrol.py" "/home/bohn/FishRos/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_py/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/bohn/FishRos/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_py/chapt4_interfaces/srv/_patrol_s.c" "/home/bohn/FishRos/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_py/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   )
 
 
