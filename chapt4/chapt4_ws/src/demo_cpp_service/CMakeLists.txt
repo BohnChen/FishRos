@@ -24,4 +24,16 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
+add_executable(turtle_control src/turtle_control.cpp)
+add_executable(patrol_client src/patrol_client.cpp)
+
+# 如果不加后面的依赖，会找不到头文件
+ament_target_dependencies(turtle_control chapt4_interfaces rclcpp geometry_msgs turtlesim)
+ament_target_dependencies(patrol_client chapt4_interfaces rclcpp)
+
+install(TARGETS
+    turtle_control
+	patrol_client
+    DESTINATION lib/${PROJECT_NAME}
+)
 ament_package()
