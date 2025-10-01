@@ -3,8 +3,8 @@
 #include "rcl_interfaces/msg/set_parameters_result.hpp"
 #include "rclcpp/rclcpp.hpp"
 #include "turtlesim/msg/pose.hpp"
-using Patrol = chapt4_interfaces::srv::Patrol;
 using SetParametersResult = rcl_interfaces::msg::SetParametersResult;
+using Patrol = chapt4_interfaces::srv::Patrol;
 
 class TurtleController : public rclcpp::Node {
 public:
@@ -33,29 +33,6 @@ public:
           auto result = SetParametersResult();
           result.successful = true;
           return result;
-        });
-
-    velocity_publisher_ = this->create_publisher<geometry_msgs::msg::Twist>(
-        "/turtle1/cmd_vel", 10);
-    pose_subscription_ = this->create_subscription<turtlesim::msg::Pose>(
-        "/turtle1/pose", 10,
-        std::bind(&TurtleController::on_pose_received_, this,
-                  std::placeholders::_1));
-
-    // 3. 创建服务
-    patrol_server_ = this->create_service<Patrol>(
-        "patrol",
-        [&](const std::shared_ptr<Patrol::Request> request,
-            std::shared_ptr<Patrol::Response> response) -> void {
-          // 判断巡逻点是否在模拟器边界内
-          if ((0 < request->target_x && request->target_x < 12.0f) &&
-              (0 < request->target_y && request->target_y < 12.0f)) {
-            target_x_ = request->target_x;
-            target_y_ = request->target_y;
-            response->result = Patrol::Response::SUCCESS;
-          } else {
-            response->result = Patrol::Response::FAIL;
-          }
         });
   }
 
