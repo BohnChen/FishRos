@@ -15,6 +15,8 @@ find_package(tf2_geometry_msgs REQUIRED)
 
 add_executable(static_tf_broadcaster src/static_tf_broadcaster.cpp)
 add_executable(dynamic_tf_broadcaster src/dynamic_tf_broadcaster.cpp)
+add_executable(tf_listener src/tf_listener.cpp)
+ament_target_dependencies(tf_listener rclcpp tf2 tf2_ros geometry_msgs tf2_geometry_msgs)
 ament_target_dependencies(dynamic_tf_broadcaster rclcpp tf2 tf2_ros geometry_msgs tf2_geometry_msgs)
 ament_target_dependencies(static_tf_broadcaster rclcpp tf2 tf2_ros geometry_msgs tf2_geometry_msgs)
 
@@ -33,6 +35,7 @@ endif()
 install(TARGETS
   static_tf_broadcaster
   dynamic_tf_broadcaster
+  tf_listener
   DESTINATION lib/${PROJECT_NAME}
 )
 
