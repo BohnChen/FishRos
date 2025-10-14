@@ -13,6 +13,16 @@
 				</material>
 
 			</visual>
+			<collision>
+				<origin xyz="0 0 0" rpy="0 0 0" />
+				<geometry>
+					<cylinder length="0.10" radius="0.01" />
+				</geometry>
+				<material name="red">
+					<color rgba="0.0 1.0 0.0 0.8" />
+				</material>
+				
+			</collision>
 		</link>
 
 		<joint name="laser_cylinder_joint" type="fixed">
@@ -32,6 +42,15 @@
 					<color rgba="0.0 1.0 0.0 0.8" />
 				</material>
 			</visual>
+			<collision>
+				<origin xyz="0 0 0" rpy="0 0 0 " />
+				<geometry>
+					<cylinder length="0.02" radius="0.02" />
+				</geometry>
+				<material name="green">
+					<color rgba="0.0 1.0 0.0 0.8" />
+				</material>
+			</collision>
 		</link>
 		<!-- 下面整段的意思是，将laser_link放到laser_cylinder_link 的上方0.05米的位置 -->
 		<joint name="laser_joint" type="fixed">

@@ -11,6 +11,15 @@
 					<color rgba="1.0 1.0 0.0 0.8" />
 				</material>
 			</visual>
+			<collision>
+				<origin xyz="0 0 0" rpy="0 0 0" />
+				<geometry>
+					<sphere radius="0.016" />
+				</geometry>
+				<material name="yellow">
+					<color rgba="1.0 1.0 0.0 0.8" />
+				</material>
+			</collision>
 		</link>
 		<joint name="${caster_name}_caster_joint" type="fixed">
 			<parent link="base_link" />
